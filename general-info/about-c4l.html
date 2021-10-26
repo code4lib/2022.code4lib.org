@@ -14,28 +14,32 @@ active: About Code4Lib
                 <p class="text-right small"><a href="https://www.flickr.com/photos/schwartzray/12121269326/in/album-72157640116429213/">photo: Ray Schwartz on Flickr</a></p>
                 <h2>Code4Lib is a vibrant and diverse community.</h2>
                 <p>
-                    We are developers and technologists for libraries, museums, and archives who have a strong commitment to open
-                    technologies. Code4Lib began as a simple mailing list in 2003 and held its first face-to-face meeting in 2005
-                    in Chicago. The first official annual conference was held in 2006 in Corvallis, Oregon. Code4Lib is dedicated
-                    to being a diverse and inclusive community of technologists seeking to share ideas and build collaboration.
+                    We are developers and technologists for libraries, museums, and
+                    archives who have a strong commitment to open technologies.
+                    <a href="https://code4lib.org/">Code4Lib</a> began as a simple
+                    <a href="https://wiki.code4lib.org/MailingList">mailing list</a>
+                    in 2003 and held its first face-to-face meeting in 2005 in Chicago.
+                    The first official annual conference was held in 2006 in Corvallis,
+                    Oregon.
+                    Nowadays, the Code4Lib community gravitates around the same listserv,
+                    an annual conference with hundreds of attendees, as well as
+                    <a href="https://code4lib.org/irc/">IRC and Slack channels</a>
+                    that are open for anyone to join.
+                    We are dedicated to being a diverse and inclusive community of
+                    technologists seeking to share ideas and build collaboration.
+                    You can <a href="https://github.com/code4lib/code-of-conduct/blob/main/code_of_conduct.md">
+                    read our Code of Conduct here</a>.
                 </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <h2>Conference Information</h2>
-                <p>
-                For more information on the Code4Lib Conference, please see the <a href="{{ site.baseurl }}">conference website</a>. You can see write-ups of previous Code4Lib Conferences:
-                </p>
+                <p>View some of our past conference websites:</p>
                 <ul>
-                    <li><a href="http://journal.code4lib.org/articles/6848">Code4Lib 2012 Conference Report</a></li>
-                    <li><a href="http://journal.code4lib.org/articles/4960">Code4Lib 2011 Conference Report</a>
-                    <li><a href="http://journal.code4lib.org/articles/2717">Code4Lib 2010 Conference Report</a></li>
-                    <li><a href="http://journal.code4lib.org/articles/998">Code4Lib 2009 Conference Report</a></li>
-                    <li><a href="http://journal.code4lib.org/articles/72">Code4Lib 2008 Conference Report</a></li>
+                {% comment %}
+                Cast year string to int then iterate down, we can go back as far
+                as the first Jekyll site from 2016 (Philadelphia).
+                {% endcomment %}
+                {% assign conf_year = site.data.conf.year | minus: 0 %}
+                {% for i in (1..4) %}
+                    <li><a href="https://{{ conf_year | minus: i }}.code4lib.org">Code4Lib {{ conf_year | minus: i }}</a></li>
+                {% endfor %}
                 </ul>
             </div>
         </div>
