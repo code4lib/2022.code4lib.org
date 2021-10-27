@@ -95,7 +95,7 @@ social-links:
 main-conf-email: 'code4lib@concentra-cms.com'
 sponsor-contact-email: 'code4lib.sponsorship@gmail.com'
 scholarship-contact-email: 'code4libaward@gmail.com'
-workshop-contact-email: 'casden@email.unc.edu'
+workshop-contact-email: 'Code4Lib.Workshops@gmail.com'
 lpc-contact-email: 'code4liblpc@gmail.com'
 # accessibility-email: 'code4lib.accessibility@gmail.com'
 accessibility-email: 'code4libaccessibility@googlegroups.com'
@@ -135,22 +135,23 @@ closed-captioning:
 
 # Peri display descriptions and titles
 peri:
-  day1-am-title: "Conference, Day 1"
-  day1-am-desc: "Keynote"
-  day2-am-title: "Conference, Day 2"
-  day2-am-desc: "Awesome Talks"
-  day2-pm-title: "Game Night"
-  day2-pm-desc: "Board or Card Games"
-  day3-am-title: "Conference, Day 3"
+  day1-am-title: "Pre-Conference"
+  day1-am-desc: "Workshops"
+  day2-am-title: "Conference, Day 1"
+  day2-am-desc: "Keynote"
+  day3-am-title: "Conference, Day 2"
   day3-am-desc: "Awesome Talks"
-  day3-pm-title: "Karaoke Night"
-  day3-pm-desc: "Join Us"
-  day4-am-title: "Conference, Day 4"
+  day3-pm-title: "Game Night"
+  day3-pm-desc: "Board or Card Games"
+  day4-am-title: "Conference, Day 3"
   day4-am-desc: "Awesome Talks"
-  day4-pm-title: "Trivia Night"
-  day4-pm-desc: "Bragging Rights"
-  day5-am-title: "Postconference"
-  day5-am-desc: "Workshops"
+  day4-pm-title: "Karaoke Night"
+  day4-pm-desc: "Join Us"
+  day5-am-title: "Conference, Day 4"
+  day5-am-desc: "Awesome Talks"
+  day5-pm-title: "Trivia Night"
+  day5-pm-desc: "Bragging Rights"
+
 
 ###########
 # Sponsors
@@ -181,9 +182,9 @@ keynote-proposals:
   end-date: '2021-11-25'
 
 workshop-proposals:
-  show: false
-  submission-form: 'https://docs.google.com/forms/d/e/1FAIpQLSfGLxdVHROBtxAviUEbfpH4QVYBT7dX4voXt210y92ByWo-kw/viewform'
-  end-date: '2021-12-13'
+  show: true
+  submission-form: 'https://docs.google.com/forms/d/e/1FAIpQLSfh1ri7kmxtZv5SdfKJ-Q6EoiTFYVxtaFNhbh2Wzpzxcr0BcQ/viewform'
+  end-date: '2021-11-18'
 
 talk-proposals:
   show: true
