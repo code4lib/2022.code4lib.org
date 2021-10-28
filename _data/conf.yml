@@ -177,9 +177,9 @@ sponsorpage-sponsor-button: false
 ###########
 
 keynote-proposals:
-  show: false
+  show: true
   submission-form: 'https://wiki.code4lib.org/2022_Keynote_Speakers_Nominations'
-  end-date: '2021-11-25'
+  end-date: '2021-11-18'
 
 workshop-proposals:
   show: true
