@@ -64,6 +64,7 @@ state: 'NY'
 
 # Front Page Location Welcome Message
 
+location-catchline: 'Buffalo NY, City of Light'
 location-welcome-message: 'When Nicola Tesla initiated the world's first long-range transmission of electricity in 1896, Buffalo became the America's City of Light. From biomedical research to the arts, this spirit of innovation glows brighter than ever in Buffalo today, which makes Buffalo a perfect location for our 2022 Code4Lib Conference. Being hosted by the State University of New York at Buffalo, details on our venue are coming soon!'
 
 # NOTE: {% if site.data.conf.venue.name != '' %} is being used to remove textual references
