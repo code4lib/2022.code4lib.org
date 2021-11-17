@@ -161,12 +161,10 @@ peri:
 # Sponsors
 ###########
 # If false, hides sponsors link in navigation and footer
-show-sponsors: false
-# If true, any "Sponsors" links will go to /prospectus instead of /sponsors
-call-for-sponsors: true
+show-sponsors: true
 # Individual Page Buttons
 homepage-sponsor-button: true
-sponsorpage-sponsor-button: false
+sponsorpage-sponsor-button: true
 # URL to document
 # prospectus-document: ''
 sponsor-btn-link: 'https://www.concentra-cms.com/c4l22sponsorreg.html'
