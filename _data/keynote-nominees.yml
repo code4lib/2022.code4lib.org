@@ -1,0 +1,29 @@
+- name: "Lauren Chambers"
+  slug: 1
+  bio: |
+    Lauren is a Ph.D. student at the Berkeley iSchool, focused on data and society issues. Previously she was staff technologist at the ACLU of Massachusetts, where (among other things) she fought against government use of facial recognition technology and co-organized a workshop where drag queens taught anti-surveillance makeup techniques in a public library. Before that, she was an astrophysicist.
+
+- name: "Kathleen Fitzpatrick"
+  slug: 2
+  bio: |
+    Kathleen Fitzpatrick is Director of Digital Humanities and Professor of English at Michigan State University. Fitzpatrick is author of Generous Thinking: A Radical Approach to Saving the University (Johns Hopkins University Press, 2019). She is project director of Humanities Commons, an open-access, open-source network serving more than 19,000 scholars and practitioners in the humanities. She is also co-founder of the digital scholarly network MediaCommons, where she has led a number of experiments in open peer review and other innovations in scholarly publishing. She serves on the editorial or advisory boards of publications and projects including the Open Library of the Humanities, Luminos, the Open Annotation Collaboration, PressForward, and thresholds. She currently serves as the chair of the board of trustees of the Council on Library and Information Resources, and as Vice-President/President-Elect of the Association for Computers and the Humanities.
+
+- name: "Crystal Lee"
+  slug: 3
+  bio: |
+    Crystal is a Ph.D. student at MIT. To quote from her web site, "I work broadly on topics related to the social and political dimensions of computing, data visualization, and disability. I also conduct ethnographic and computational research on social media communities like COVID skeptics, Chinese cyber-nationalist fandoms, and data hoarders." She did an amazing paper on how COVID skeptics use data visualization practices to promote misinformation, hence how information literacy is altogether more complicated than it seems.
+
+- name: "Serena Oduro"
+  slug: 4
+  bio: |
+    Serena has worked on anti-racist tech equity and policy issues at Data & Society and Greenlining. "Serena received a BA in History from Seattle University where she also minored in Philosophy, Business, Global African Studies, and Mandarin", and all of that background shows up in her talks. She's worked and studied in England, Poland, and Ghana.
+
+- name: "Diego Pino Navarro"
+  slug: 5
+  bio: |
+    Archipelago is an open source repository system developed and supported by the Metropolitan New York Library Council (METRO). Conceived 3 years ago as a response to our communities’ need (New York State) to lower the technological barriers of using and maintaining such systems and our experience maintaining and developing other open source repositories, Archipelago has come a long way, from a simple idea to many successful implementations. An extensive, thoughtful planning process turned into a formal roadmap that guided the development of a novel paradigm, coded with care for and supported by a diverse community. This presentation is about multi-sided Openness, a tale of rethinking our historical notions of what domain driven systems are in our shared professional realms, of stepping back, of giving users the tools for building on their own practices, of removing ourselves (developers) from imposing preconceived shapes data and media should have. In an evolving and constantly shifting domain, we provide means that support local, identity-driven workflows, enabling exploration and iterative actions leading to making knowledge more open, for human and machine consumption. 
+
+- name: Adrian Roselli
+  slug: 6
+  bio: |
+    Based in Buffalo, Adrian is a celebrated advocate and educator on building accessible and usable websites. Heavily involved with W3C, he has served on multiple standards committees. His website is well known for his articles exploring accessibility issues with a deep analysis of the critical aspects but written in such a way that both novices and experts learn valuable insights. Committed to social justice in design and technology, Adrian has much he could share with the Code4Lib community. 
