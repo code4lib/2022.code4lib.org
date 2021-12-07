@@ -28,3 +28,14 @@
   img: /assets/img/sponsors/PittShield_Rule_ULS_3color_lightback.png
   link: https://www.library.pitt.edu/
   level: contributor
+
+- name: Western New York Library Resources Council
+  img: /assets/img/sponsors/WNYLRC.png
+  link: https://www.wnylrc.org/
+  level: contributor
+
+- name: Balsamiq Studios LLC
+  img: /assets/img/sponsors/Balsamiq.png
+  link: https://balsamiq.com/wireframes/
+  level: contributor
+  annotation: 'Captioning Sponsor'
