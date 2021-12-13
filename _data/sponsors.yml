@@ -60,3 +60,18 @@
   level: supporter
   diversity: false
   transcription: false
+
+- name: LYRASIS
+  img: /assets/img/sponsors/LYRASIS.jpeg
+  link: https://www.lyrasis.org/
+  level: supporter
+  diversity: false
+  transcription: false
+  annotation: 'Captioning Sponsor'
+
+- name: METRO
+  img: /assets/img/sponsors/METRO.jpeg
+  link: https://metro.org/
+  level: supporter
+  diversity: true
+  transcription: false

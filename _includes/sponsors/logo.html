@@ -14,7 +14,10 @@
             <span class="sponsor-name-only">{{ sponsor.name }}</span>
         {% endif %}
     {% endif %}
-    {% if sponsor.annotation and sponsor.annotation != '' %}
+    {% if sponsor.annotation and sponsor.annotation != nil %}
         <div class="sponsor-annotation">{{ sponsor.annotation }}</div>
+    {% endif %}
+    {% if sponsor.diversity and sponsor.diversity != nil %}
+        <div class="sponsor-diversity">Diversity Scholarships</div>
     {% endif %}
 </div>
