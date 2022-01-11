@@ -86,10 +86,18 @@
   img: /assets/img/sponsors/illinois.png
   link: https://www.library.illinois.edu/
   level: bronze
-  annotation: 'Captioning Sponsor'
 
 - name: School of Information, UBC
   img: /assets/img/sponsors/ubc.png
   link: https://ischool.ubc.ca/
   level: supporter
-  annotation: 'Captioning Sponsor'
+
+- name: EBSCO FOLIO Services
+  img: /assets/img/sponsors/ebsco.png
+  link: https://www.ebsco.com/academic-libraries/products/ebsco-folio
+  level: gold
+
+- name: Rutgers
+  img: /assets/img/sponsors/rutgers.jpg
+  link: https://comminfo.rutgers.edu/graduate-and-professional-programs/master-information
+  level: bronze
