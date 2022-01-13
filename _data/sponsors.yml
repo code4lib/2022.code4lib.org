@@ -101,3 +101,8 @@
   img: /assets/img/sponsors/rutgers.jpg
   link: https://comminfo.rutgers.edu/graduate-and-professional-programs/master-information
   level: bronze
+
+- name: University of Illinois School of Information Sciences
+  img: /assets/img/sponsors/illinois_info_school.png
+  link: https://ischool.illinois.edu/
+  level: contributor
