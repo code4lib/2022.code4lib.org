@@ -111,3 +111,8 @@
   img: /assets/img/sponsors/iii.png
   link: https://www.iii.com/
   level: silver
+
+- name: Samvera
+  img: /assets/img/sponsors/samvera.png
+  link: https://samvera.org/
+  level: supporter
