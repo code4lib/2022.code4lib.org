@@ -3,9 +3,9 @@
 // --------------------------------------
 
 .keynote-link {
-  color: #C8102E;;
+  color: $primary;
   &:hover {
-    color: #C8102E;;
+    color: $primary-dark;
     text-decoration: underline;
   }
 }
