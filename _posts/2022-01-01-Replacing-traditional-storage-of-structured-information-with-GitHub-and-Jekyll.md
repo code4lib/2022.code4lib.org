@@ -9,7 +9,7 @@ group: 6
 spot: 1
 time: 1:30 PM
 speakers:
-- niqui-o'neill
+- niqui-oneill
 length: 15
 slugTitle: replacing-traditional-storage-of-structured-information-with-github-and-jekyll
 location: Auditorium 2120 A&B
