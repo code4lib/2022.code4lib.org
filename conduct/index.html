@@ -267,7 +267,7 @@ active: 'Conduct & Safety'
             <script>document.querySelector('ul.secondarynav a[href="#schedule"]').parentElement.remove()</script>
             {% endif %}
 
-            {% if site.data.conf.venue.name != nil %}
+            {% if site.data.conf.online-only-conference == false %}
             <div class="row">
                 <div class="col-12">
                     <h2 id="photography">Photography Policy</h2>
