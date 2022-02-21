@@ -9,7 +9,8 @@ group: 1
 spot: 5
 time: 11:20 AM
 speakers:
-- dr.-patrick-murray-john,william-reed-quinn
+- dr-patrick-murray-john
+- william-reed-quinn
 length: 15
 slugTitle: from-raw-data-to-leaflet-maps
 location: Auditorium 2120 A&B

@@ -9,7 +9,9 @@ group: 5
 spot: 1
 time: 11:00 AM
 speakers:
-- naomi-dushay,jeremy-friesen,mike-giarlo
+- naomi-dushay
+- jeremy-friesen
+- mike-giarlo
 length: 20
 slugTitle: avoiding-unconscious-bias-a-defined-hiring-process
 location: Auditorium 2120 A&B

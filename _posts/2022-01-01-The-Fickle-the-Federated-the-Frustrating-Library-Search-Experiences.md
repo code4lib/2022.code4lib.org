@@ -9,7 +9,9 @@ group: 1
 spot: 4
 time: 11:00 AM
 speakers:
-- margaret-heller,eric-phetteplace,bohyun-kim
+- margaret-heller
+- eric-phetteplace
+- bohyun-kim
 length: 20
 slugTitle: the-fickle-the-federated-the-frustrating-library-search-experiences
 location: Auditorium 2120 A&B

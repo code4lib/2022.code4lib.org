@@ -9,7 +9,7 @@ group: 3
 spot: 1
 time: 4:15 PM
 speakers:
-- laurie-g.-arp
+- laurie-g-arp
 length: 10
 slugTitle: it-takes-a-village-itav-developing-practical-tools-for-oss-program-sustainability
 location: Auditorium 2120 A&B

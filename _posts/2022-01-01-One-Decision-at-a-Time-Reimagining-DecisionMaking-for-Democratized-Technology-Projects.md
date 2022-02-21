@@ -9,7 +9,8 @@ group: 5
 spot: 4
 time: 11:45 AM
 speakers:
-- salwa-ismail,jackie-gosselar
+- salwa-ismail
+- jackie-gosselar
 length: 15
 slugTitle: one-decision-at-a-time-reimagining-decision-making-for-democratized-technology-projects
 location: Auditorium 2120 A&B

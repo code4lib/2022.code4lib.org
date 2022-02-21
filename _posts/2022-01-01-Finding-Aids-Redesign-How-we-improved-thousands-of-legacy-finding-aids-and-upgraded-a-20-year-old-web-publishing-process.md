@@ -9,7 +9,8 @@ group: 7
 spot: 2
 time: 4:10 PM
 speakers:
-- deb-verhoff,joe-pawletko
+- deb-verhoff
+- joe-pawletko
 length: 15
 slugTitle: finding-aids-redesign-how-we-improved-thousands-of-legacy-finding-aids-and-upgraded-a-20-year-old-web-publishing-process
 location: Auditorium 2120 A&B

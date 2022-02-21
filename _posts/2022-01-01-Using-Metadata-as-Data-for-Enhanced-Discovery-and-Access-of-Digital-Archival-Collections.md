@@ -9,7 +9,7 @@ group: 7
 spot: 1
 time: 4:00 PM
 speakers:
-- elizabeth-james;
+- elizabeth-james
 length: 10
 slugTitle: using-metadata-as-data-for-enhanced-discovery-and-access-of-digital-archival-collections
 location: Auditorium 2120 A&B

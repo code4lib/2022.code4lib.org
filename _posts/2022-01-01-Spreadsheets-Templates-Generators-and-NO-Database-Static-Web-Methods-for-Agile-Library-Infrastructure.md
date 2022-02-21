@@ -9,7 +9,9 @@ group: 6
 spot: 3
 time: 2:00 PM
 speakers:
-- evan-peter-williamson,olivia-wikle,devin-becker
+- evan-peter-williamson
+- olivia-wikle
+- devin-becker
 length: 15
 slugTitle: spreadsheets-templates-generators-and-no-database-static-web-methods-for-agile-library-infrastructure
 location: Auditorium 2120 A&B

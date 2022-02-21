@@ -9,7 +9,9 @@ group: 1
 spot: 1
 time: 10:15 AM
 speakers:
-- shalini-ramachandran,steve-cutchin,sheree-fu
+- shalini-ramachandran
+- steve-cutchin
+- sheree-fu
 length: 20
 slugTitle: algorthim-bias-instruction-reflection-and-advocacy
 location: Auditorium 2120 A&B

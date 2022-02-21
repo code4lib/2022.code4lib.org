@@ -9,7 +9,8 @@ group: 6
 spot: 2
 time: 1:45 PM
 speakers:
-- ilya-kreymer,ed-summers
+- ilya-kreymer
+- ed-summers
 length: 15
 slugTitle: web-archives-in-digital-repositories-simple-integration-and-reducing-software-maintenance-footprint
 location: Auditorium 2120 A&B

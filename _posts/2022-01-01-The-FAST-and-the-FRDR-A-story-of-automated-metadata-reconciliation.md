@@ -9,7 +9,8 @@ group: 8
 spot: 2
 time: 12:00 PM
 speakers:
-- clara-turp,kelly-stathis
+- clara-turp
+- kelly-stathis
 length: 15
 slugTitle: the-fast-and-the-frdr-a-story-of-automated-metadata-reconciliation
 location: Auditorium 2120 A&B

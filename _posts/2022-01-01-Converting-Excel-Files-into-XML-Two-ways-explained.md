@@ -9,7 +9,8 @@ group: 1
 spot: 3
 time: 10:45 AM
 speakers:
-- amy-jiang,david-raygoza
+- amy-jiang
+- david-raygoza
 length: 15
 slugTitle: converting-excel-files-into-xml-two-ways-explained
 location: Auditorium 2120 A&B

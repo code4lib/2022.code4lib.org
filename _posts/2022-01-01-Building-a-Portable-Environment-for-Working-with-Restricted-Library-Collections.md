@@ -9,7 +9,9 @@ group: 7
 spot: 4
 time: 4:40 PM
 speakers:
-- inna-kouper,alex-wermer-colan,ayisha-tabassum
+- inna-kouper
+- alex-wermer-colan
+- ayisha-tabassum
 length: 15
 slugTitle: building-a-portable-environment-for-working-with-restricted-library-collections
 location: Auditorium 2120 A&B

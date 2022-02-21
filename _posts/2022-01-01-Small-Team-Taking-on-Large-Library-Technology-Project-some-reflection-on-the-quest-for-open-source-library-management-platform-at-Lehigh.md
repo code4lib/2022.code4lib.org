@@ -9,7 +9,9 @@ group: 3
 spot: 3
 time: 4:35 PM
 speakers:
-- chulin-meng,christopher-creswell,michelle-suranofsky
+- chulin-meng
+- christopher-creswell
+- michelle-suranofsky
 length: 15
 slugTitle: small-team-taking-on-large-library-technology-project-some-reflection-on-the-quest-for-open-source-library-management-platform-at-lehigh
 location: Auditorium 2120 A&B

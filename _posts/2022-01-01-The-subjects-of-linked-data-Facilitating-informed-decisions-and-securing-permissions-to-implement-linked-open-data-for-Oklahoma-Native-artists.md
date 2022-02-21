@@ -9,7 +9,8 @@ group: 4
 spot: 2
 time: 9:30 AM
 speakers:
-- madison-chartier,megan-macken
+- madison-chartier
+- megan-macken
 length: 15
 slugTitle: the-subjects-of-linked-data-facilitating-informed-decisions-and-securing-permissions-to-implement-linked-open-data-for-oklahoma-native-artists
 location: Auditorium 2120 A&B

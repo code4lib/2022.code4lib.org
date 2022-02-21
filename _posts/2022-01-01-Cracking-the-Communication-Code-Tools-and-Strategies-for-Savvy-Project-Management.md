@@ -9,7 +9,8 @@ group: 5
 spot: 3
 time: 11:30 AM
 speakers:
-- rachel-evans,jason-tubinis
+- rachel-evans
+- jason-tubinis
 length: 15
 slugTitle: cracking-the-communication-code-tools-and-strategies-for-savvy-project-management
 location: Auditorium 2120 A&B

@@ -9,7 +9,8 @@ group: 4
 spot: 3
 time: 9:45 AM
 speakers:
-- kim-pham,pascal-belouin
+- kim-pham
+- pascal-belouin
 length: 15
 slugTitle: building-a-central-knowledge-graph-for-digital-humanities-research-data
 location: Auditorium 2120 A&B

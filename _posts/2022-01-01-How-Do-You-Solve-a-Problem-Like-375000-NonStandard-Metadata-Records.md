@@ -9,7 +9,9 @@ group: 8
 spot: 1
 time: 11:45 AM
 speakers:
-- julia-corrin,matthew-lincoln,lina-crowe
+- julia-corrin
+- matthew-lincoln
+- lina-crowe
 length: 15
 slugTitle: how-do-you-solve-a-problem-like-375-000-non-standard-metadata-records-
 location: Auditorium 2120 A&B

@@ -9,7 +9,7 @@ group: 3
 spot: 4
 time: 4:50 PM
 speakers:
-- karen-majewicz;
+- karen-majewicz
 length: 10
 slugTitle: how-we-keep-a-small-open-source-community-afloat-reflections-on-geoblacklight
 location: Auditorium 2120 A&B
