@@ -26,7 +26,7 @@
   day3: true
   time: 09:00-09:15
 
-- timeImg: 1.00.png
+- timeImg: 1.15.png
   title: Announcements
   day1: true
   day2: true
@@ -128,43 +128,6 @@
   #menu: day2-menus
   #submenu: Lunch
 
-## housekeeping (announcements and giveaways)
-#- timeImg: 10.15.png
-#  title: Announcements
-#  day1: true
-#  time: 10:15-10:20
-#
-#- timeImg: 1.20.png
-#  title: Announcements
-#  day1: true
-#  time: 13:20-13:25
-#
-#- timeImg: 3.40.png
-#  title: Announcements
-#  day1: true
-#  time: 15:55-16:00
-#
-#- timeImg: 1.05.png
-#  title: Announcements
-#  day2: true
-#  time: 13:05-13:10
-#
-#- timeImg: 3.35.png
-#  title: Announcements
-#  day2: true
-#  time: 15:35-15:40
-#
-#- timeImg: 10.10.png
-#  title: Announcements
-#  day3: true
-#  time: 10:10-10:15
-#
-#- timeImg: 11.00.png
-#  title: Announcements
-#  day3: true
-#  time: 11:00-11:05
-
-
 # keynotes
 - timeImg: 9.15.png
   title: Opening Keynote
@@ -180,49 +143,49 @@
 
 # groups
 - timeImg: 10.15.png
-  title: Group 1&#58; X minutes (8 talks)
+  title: Group 1&#58; 110 minutes (8 talks)
   day1: true
   groupId: 1
   time: 10:15-12:05
 
 - timeImg: 1.30.png
-  title: Group 2&#58; X minutes (4 talks)
+  title: Group 2&#58; 75 minutes (4 talks)
   day1: true
   groupId: 2
   time: 13:30-14:45
 
 - timeImg: 4.15.png
-  title: Group 3&#58; X minutes (4 talks)
+  title: Group 3&#58; 45 minutes (4 talks)
   day1: true
   groupId: 3
   time: 16:15-17:00
 
 - timeImg: 9.15.png
-  title: Group 4&#58; X minutes (3 talks)
+  title: Group 4&#58; 45 minutes (3 talks)
   day2: true
   groupId: 4
   time: 9:15-10:00
 
 - timeImg: 11.00.png
-  title: Group 5&#58; X minutes (3 talks)
+  title: Group 5&#58; 60 minutes (3 talks)
   day2: true
   groupId: 5
   time: 11:00-12:00
 
 - timeImg: 1.30.png
-  title: Group 6&#58; X minutes (3 talks)
+  title: Group 6&#58; 45 minutes (3 talks)
   day2: true
   groupId: 6
   time: 13:30-14:15
 
 - timeImg: 4.00.png
-  title: Group 7&#58; X minutes (4 talks)
+  title: Group 7&#58; 55 minutes (4 talks)
   day2: true
   groupId: 7
   time: 16:00-16:55
 
 - timeImg: 11.45.png
-  title: Group 8&#58; X minutes (3 talks)
+  title: Group 8&#58; 45 minutes (3 talks)
   day3: true
   groupId: 8
   time: 11:45-12:30
