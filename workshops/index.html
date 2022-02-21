@@ -40,6 +40,9 @@ title: Pre-Conference Workshops
             {% for post in posts %}
                 {% include workshops/card.html workshop=post %}
             {% endfor %}
+            {% if posts.size == 0 %}
+                <p class="alert alert-warning">We don't have workshops information yet, but when we do it will appear right here.</p>
+            {% endif %}
         </div>
     </div>
 </div>
