@@ -55,7 +55,7 @@
                                     {% assign speaker = site.data.speakers | where: 'id', speaker_id | first %}
                                     {% if speaker %}
                                         <div class="col-sm-3 text-center">
-                                            <a href="/speakers/#{{ speaker.id }}">
+                                            <a href="/speakers/#{{ speaker.id }}-id">
                                                 <img class="clip-circle-speaker" src="{{ speaker.image_src |relative_url }}" alt="{{ speaker.name }}">
                                                 {% if event.groupId != 'key-open' and event.groupId != 'key-close' %}
                                                     <span>{{ speaker.name }}</span>
