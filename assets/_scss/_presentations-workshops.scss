@@ -7,10 +7,6 @@
   font-size: 2em;
 }
 
-.talk-row:nth-child(odd) {
-  //background-color: $gray-lighter;
-}
-
 .talk-row {
   margin-top: 11px;
   padding: 11px 0 11px 11px;
@@ -26,8 +22,8 @@
     background: $gray-300;
 }
 
-.talk-row h3 {
-  margin-bottom: 1em;
+.talk-title {
+    margin-bottom: 1em;
 }
 
 .back-workshops {

@@ -11,12 +11,12 @@
                     <div class="col-sm-7 col-12">
                         {% if event.groupId == 'key-open' %}
                             {% assign keynote = site.posts | where:"group",event.groupId %}
-                            <h2><a class="keynote-link" href="{{ keynote[0].url }}">{{ event.title }}</a></h2>
+                            <h2 class="cd-timeline-content-title"><a class="keynote-link" href="{{ keynote[0].url }}">{{ event.title }}</a></h2>
                         {% elsif event.groupId == 'key-close' %}
                             {% assign keynote = site.posts | where:"group",event.groupId %}
-                            <h2><a class="keynote-link" href="{{ keynote[0].url }}">{{ event.title }}</a></h2>
+                            <h2 class="cd-timeline-content-title"><a class="keynote-link" href="{{ keynote[0].url }}">{{ event.title }}</a></h2>
                         {% else %}
-                            <h2>{{ event.title }}</h2>
+                            <h2 class="cd-timeline-content-title">{{ event.title }}</h2>
                             <p>{{ event.description }}</p>
                             {% if event.link %}
                                 <p>
@@ -30,7 +30,7 @@
                         {% endif %}
                     </div>
                     <div class="col-sm-5 col-12 text-right">
-                        <h2>
+                        <h2 class="cd-timeline-content-title">
                             {% capture eventTime %}{{ event.time | replace: '-', ' ' }}{% endcapture %}
                             {% capture beginTime %}{{ eventTime | truncatewords: 1, '' }}{% endcapture %}
                             {% capture endTime %}{{ eventTime | replace: beginTime, '' }}{% endcapture %}
@@ -47,7 +47,7 @@
                                 {% if event.groupId == 'key-open' %}
                                 {% elsif event.groupId == 'key-close' %}
                                 {% else %}
-                                    <h3 class="h4"><a href="{{ talk.url }}">{{ talk.title }}</a></h3>
+                                    <h3 class="h4 talk-title"><a href="{{ talk.url }}">{{ talk.title }}</a></h3>
                                 {% endif %}
                             </div>
                             <div class="col-12 d-none d-md-flex flex-wrap">
