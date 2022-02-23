@@ -9,6 +9,8 @@ location: 'Buffalo, New York'
 search: false
 online-only-conference: false
 # https://research.lib.buffalo.edu/2022code4lib/venues
+welcome-message: In 1896, when Nicola Tesla initiated the first ever long-range transmission of electricity, the destination of Buffalo became the City of Light. Today, from biomedical research to the arts, this spirit of innovation glows brighter than ever, which makes Buffalo a perfect location for our 2022 Code4Lib Conference. Hosted by the State University of New York at Buffalo, details on our venue are coming soon!
+catchline: the City of Light
 
 ###########################
 # Hero
@@ -59,28 +61,33 @@ days:
 ####################
 
 # Short Form for location
-city-state: 'Buffalo NY'
+city-state: 'Buffalo, NY'
 city: 'Buffalo'
 state: 'NY'
 
 # NOTE: {% if site.data.conf.venue.name != '' %} is being used to remove textual references
 #       to a physical conference venue, when the conference is fully online.
 venue:
-  reserved-room-block: false
-  name:
-  street: ''
-  postal-code: ''
-  phone: ''
-  image: ''
-  website: ''
-  floorplan: ''
-  directions: ''
+  name: 'Jacobs School of Medicine and Biomedical Sciences'
+  street: 'University in Buffalo 955 Main St.'
+  postal-code: '14203'
+  phone:
+  image: 'jacobs.jpeg'
+  website: 'https://medicine.buffalo.edu/about/our_campuses.html'
+  floorplan:
+  directions: 'https://medicine.buffalo.edu/about/our_campuses.html#title-1'
   a11y: ''
-  cost: ''
-  with-tax-cost: ''
-  cost-cutoff-date: 2021-01-01
-  welcome-message: In 1896, when Nicola Tesla initiated the first ever long-range transmission of electricity, the destination of Buffalo became the City of Light. Today, from biomedical research to the arts, this spirit of innovation glows brighter than ever, which makes Buffalo a perfect location for our 2022 Code4Lib Conference. Hosted by the State University of New York at Buffalo, details on our venue are coming soon!
-  catchline: the City of Light
+  hotel:
+    show: false
+    name: 'DEFAULT'
+    reserved-room-block: false
+    cost: 'DEFAULT'
+    with-tax-cost: 'DEFAULT'
+    cost-cutoff-date: 2140-12-31
+    check-in-time: 'DEFAULT'
+    check-out-time: 'DEFAULT'
+    self-parking-fee:
+    valet-parking-fee:
 
 ################
 # C4l Links
@@ -310,10 +317,15 @@ libtech-women:
 reception:
   show: false
   venue: 'Carnegie Museum of Pittsburgh - Oakland'
+  url: 'https://cmoa.org/about/hall-of-sculpture/'
   street: '4400 Forbes Ave'
   postal-code: '15213'
   phone: '+1(412)-353-4795'
   contact: 'straubn@carnegiemuseums.org'
+  floorplan: 'https://cmoa.org/wp-content/uploads/2016/07/z_map-for-websites.pdf'
+  image: 'hall_of_sculpture.jpg'
+  image_title: 'Photograph from the Hall of Sculpture balcony'
+  image_alt: 'Hall of Sculpture'
   times: '6:30PM to 8:30PM'
   date: '2022-03-09'
 

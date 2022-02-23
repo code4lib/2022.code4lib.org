@@ -18,8 +18,8 @@ active: Attend Code4Lib
                         {% endif %}
                     {% else %}
                         <p>Code4Lib will be held from {{site.data.conf.days[0].date}} to {{site.data.conf.days.last.date}} this year.
-                            {% if site.data.conf.venue.reserved-room-block %}
-                            We have reserved a block at the {{site.data.conf.venue.name}}; see more details on the <a href="venues/">Venues</a> page.
+                            {% if site.data.conf.venue.hotel.reserved-room-block %}
+                            We have reserved a block at the {{site.data.conf.venue.hotel.name}}; see more details on the <a href="venues/">Venues</a> page.
                             {% endif %}
                         </p>
                     {% endif %}
@@ -60,14 +60,14 @@ active: Attend Code4Lib
 
                     {% if site.data.conf.venue.name != '' %}
                     <li>
-                        <span class="font-weight-bold">{{site.data.conf.venue.name}}</span>:
-                        {{ site.data.conf.venue.cost }}/night
-                        ({% if site.data.conf.venue.with-tax-cost %}
-                            {{ site.data.conf.venue.with-tax-cost }} with taxes
+                        <span class="font-weight-bold">{{site.data.conf.venue.hotel.name}}</span>:
+                        {{ site.data.conf.venue.hotel.cost }}/night
+                        ({% if site.data.conf.venue.hotel.with-tax-cost %}
+                            {{ site.data.conf.venue.hotel.with-tax-cost }} with taxes
                             {% else %}plus taxes
                         {% endif %})
-                        {% if site.data.conf.venue.cost-cutoff-date %}
-                            until {{ site.data.conf.venue.cost-cutoff-date | date: "%B %-d" }}
+                        {% if site.data.conf.venue.hotel.cost-cutoff-date %}
+                            until {{ site.data.conf.venue.hotel.cost-cutoff-date | date: "%B %-d" }}
                         {% endif %}
                     </li>
                     {% endif %}

@@ -34,11 +34,11 @@ title: code4lib 2022
                     alt="Flag for City of Buffalo, New York" title="Flag for City of Buffalo, New York">
             </div>
             <div class="col-lg-9 col-md-7 col-xs-12">
-                <h2>Welcome to {{site.data.conf.location}}, {{site.data.conf.venue.catchline}}</h2>
-                <p>{{site.data.conf.venue.welcome-message}}</p>
+                <h2>Welcome to {{site.data.conf.location}}, {{site.data.conf.catchline}}</h2>
+                <p>{{site.data.conf.welcome-message}}</p>
                 {% if site.data.conf.venue.name != nil %}
                 <p>
-                    The conference will take place at the <a href="{{site.data.conf.venue.website}}">{{site.data.conf.venue.name}}</a>,
+                    The conference will take place at the <a class="welcome" href="{{site.data.conf.venue.website}}">{{site.data.conf.venue.name}}</a>,
                     right in downtown {{ site.data.conf.location }}.
                 </p>
                 {% endif %}
