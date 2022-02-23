@@ -11,7 +11,7 @@
       </p>
 
       <h3>Transportation</h3>
-      <p>Attendees must arrange for their own transportation to the restaurants. 
+      <p>Attendees must arrange for their own transportation to the restaurants.
       {% if site.data.conf.newcomer-dinner.activities-info != '' %}
               To get a sense of the locations and neighborhoods, you can check out the
               <a target="blank" href="{{site.data.conf.newcomer-dinner.activities-info}}">Activities Map</a>.
@@ -43,7 +43,7 @@
                 {% for restaurant in site.data.dinner %}
                 <tr>
                     <td>
-                      {% if restaurant.url != 'n/a' %}
+                      {% if restaurant.url != nil %}
                         <a href="{{restaurant.url}}">{{ restaurant.restaurant-name }}</a>
                       {% else %}
                         {{ restaurant.restaurant-name }}

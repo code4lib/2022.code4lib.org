@@ -1,11 +1,4 @@
-- dist: .50-.74
-  hood: Ahood
-  name: A Restaurant Name
-  res: 'no'
-  type: Pub
-  url: '#'
-  veg: 'yes'
-
+# can-seat-more... and price-point are not used in general-info/venues/dinner.html
 - restaurant-name: Apteka
   city-state: Pittsburgh PA
   url: https://aptekapgh.com/
@@ -18,3 +11,30 @@
   price-point: $11-30
   notes:
   accessibility-notes: Accessible entry
+
+- restaurant-name: Foodies Food Palace
+  city-state: Paris, Texas
+  url: https://example.com
+  type-of-food: Barbecue
+  distance-from-hotel: 0.5 miles
+  vegetarian-options: No
+  vegan-options: No
+  takes-reservations: Yes
+  can-seat-more-than-one-group-of-6: Yes
+  price-point: $10-23
+  notes: Very loud atmosphere.
+  accessibility-notes:
+
+
+- restaurant-name: Place w/o a Website
+  city-state: Dublin, Ohio
+  url:
+  type-of-food: Stews
+  distance-from-hotel: 5 miles
+  vegetarian-options: Yes
+  vegan-options: No
+  takes-reservations: Yes
+  can-seat-more-than-one-group-of-6: No
+  price-point: $30-40
+  notes:
+  accessibility-notes:

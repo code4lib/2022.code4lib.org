@@ -299,6 +299,7 @@ trivia-night:
   sign-up-url: ''
   sign-up-button-text: 'Sign Up! Registration Limited'
 
+# see also: dinner.yml file of restaurant locations
 newcomer-dinner:
   show: false
   # entering the URL doubles as a "show more info" switch, too
