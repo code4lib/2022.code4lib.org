@@ -669,3 +669,174 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   keynote: FALSE
   image_src: /assets/img/nopics/nopic0.jpg
   image_alt:
+
+# ---------------------------------------------------------------------------------
+
+- id: bess-sadler
+  name: Bess Sadler
+  last: Sadler
+  pronouns:
+  institution:
+  position-title:
+  bio: ''
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
+
+- id: james-griffin-iii
+  name: James Griffin III
+  last: Griffin
+  pronouns:
+  institution:
+  position-title:
+  bio: ''
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
+
+- id: esther-jackson
+  name: Esther Jackson
+  last: Jackson
+  pronouns:
+  institution:
+  position-title:
+  bio: 'Esther Jackson is the Scholarly Communication Technologies Librarian at Columbia University. Esther also serves on the Code4Lib Conference Scholarship Committee, is an organizer of the Code4Lib NYC meetup group, and has been a member of the Wikiverse since 2016 as an editor, organizer, workshop leader, and a member of various boards and projects, most recently the Wikimedia Foundation Community Fund for North America.'
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
+
+- id: dianne-weinthal
+  name: Dianne Weinthal
+  last: Weinthal
+  pronouns:
+  institution:
+  position-title:
+  bio: 'Dianne Weinthal is a user experience designer at UCLA Library and 2020 graduate of the UCLA MLIS program. With a background in art history, she focuses her work on image as artwork, as visual resource, and as digital information. She also conducts visual design experiments for Civic Software Foundation and leads the grant-funded initiative "Artist Book as Record" at Los Angeles Contemporary Archive.'
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
+
+- id: alicia-cozine
+  name: Alicia Cozine
+  last: Cozine
+  pronouns:
+  institution:
+  position-title:
+  bio: ''
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
+
+- id: hillel-arnold
+  name: Hillel Arnold
+  last: Arnold
+  pronouns:
+  institution:
+  position-title:
+  bio: 'Hillel Arnold is the Assistant Director for Digital Strategies at the Rockefeller Archive Center, where he leads the implementation of systems and processes facilitating broad and equitable access to and responsible preservation of archival records. Hillel has worked as an archivist at the Tamiment Library/Robert F. Wagner Labor Archives, the Foundation for Landscape Studies and the Woody Guthrie Archives.'
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
+
+- id: jim-hahn
+  name: Jim Hahn
+  last: Hahn
+  pronouns:
+  institution:
+  position-title:
+  bio: 'Jim Hahn is the Head of Metadata Research at the University of Pennsylvania Libraries leading linked data and metadata projects and research. Working collaboratively across the UPenn Libraries, his work is developing a vision for the services, technologies, and policies to enhance discovery of collections, following international standards and best practices for linked data and metadata.'
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
+
+- id: axa-liauw
+  name: Axa Liauw
+  last: Liauw
+  pronouns:
+  institution:
+  position-title:
+  bio: 'Axa Liauw is a user experience designer at UCLA Library who works with students, faculty, and staff to make digital products usable, enjoyable, and accessible. With over a decade of professional experience in academic libraries, including Princeton University and Wayne State University, Axas expertise spans user experience design, web development, and instruction.
+
+Axa is a Certified Professional in Web Accessibility, a certification provided by the International Association of Accessibility Professionals. She believes that equal access to information for all people is a core value in librarianship. As a user experience designer in the library, she is committed to working towards an inclusive web as equity, diversity, and inclusion are central to the promotion and practice of intellectual freedom.'
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
+
+- id: eric-morgan
+  name: Eric Morgan
+  last: Morgan
+  pronouns:
+  institution:
+  position-title:
+  bio: 'Eric Morgan is a librarian who works in the Navari Family Center for Digital Scholarship (University of Notre Dame) where he provides text mining and natural language processing for students, researchers, and scholars. He has been practicing librarianship for more than thirty years, mostly in higher education. He has been writing software longer than that. In his spare time he enjoys binding his books, rowing his boat, and playing his guitar.'
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
+
+- id: andreas-orphanides
+  name: Andreas Orphanides
+  last: Orphanides
+  pronouns:
+  institution:
+  position-title:
+  bio: 'Andreas Orphanides is Associate Head, User Experience at the NC State University Libraries. His work focuses on developing high-quality, thoughtfully designed solutions to support teaching, learning, and information discovery. He holds a Bachelor of Arts in Mathematics from Oberlin College, a Master of Science in Library Science from UNC-Chapel Hill, and a Master of Computer Science from NC State University. His professional interests include human factors, systems analysis, and design ethics. Outside of work, he has too many cats.'
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
+
+- id: francis-kayiwa
+  name: Francis Kayiwa
+  last: Kayiwa
+  pronouns:
+  institution:
+  position-title:
+  bio: ''
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
+
+- id: cary-gordon
+  name: Cary Gordon
+  last: Gordon
+  pronouns:
+  institution:
+  position-title:
+  bio: '"Cary Gordon, MLIS,Senior Developer & Founder, the Cherry Hill Company
+
+Cary is devoted to empowering libraries to enhance and extend their services through the use of technology, and he is focused on helping them to adopt open source software to that end. He is also very active in the Drupal community, having served on the board of the Drupal Association. A degreed librarian, Cary has taught and presented at conferences for the American Library Association, the California Library Association, LITA, ASIS&T, Code4Lib, Internet Librarian, Access (Canada) and NISO."'
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
+
+- id: josh-weisman
+  name: Josh Weisman
+  last: Weisman
+  pronouns:
+  institution:
+  position-title:
+  bio: 'Josh Weisman is VP Development at Ex Libris. He leads several development teams and is an evangelist for the open platform, standards, and interoperability of Ex Libris products.'
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
+
+- id: mark-a-matienzo
+  name: Mark A. Matienzo
+  last: Matienzo
+  pronouns:
+  institution:
+  position-title:
+  bio: ''
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
+
+- id: timothy-ryan-mendenhall
+  name: Timothy Ryan Mendenhall
+  last: Mendenhall
+  pronouns:
+  institution:
+  position-title:
+  bio: 'Timothy Ryan Mendenhall has worked as Metadata Librarian at Columbia University Libraries since 2018.  He is also active as a convener of the Program for Cooperative Cataloging (PCC) Sinopia Cataloging Affinity Group and as a convener of the LD4 Wikibase Working Hour.'
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
