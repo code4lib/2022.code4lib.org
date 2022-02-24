@@ -9,8 +9,8 @@ max-attendees: 24
 startTime: 1:30pm
 endTime: 4:30pm
 time: pm
-location: 
-room: 
+location: hayes-hall
+room:
 speakers:
 - francis-kayiwa
 - alicia-cozine
@@ -21,6 +21,6 @@ title: Belt and Suspenders&#58; Crafting Full Coverage Monitoring for Library Ap
 ---
 We use the term "monitoring" to describe a collection of components that make up a system comprised of fault detection, metric collection, analytics, visualization, and notification. We will talk about our composable system, with modular design, combining several tools to fulfill the functions of each component.
 
-We will look at how we use Sensu, an open source monitoring tool designed for today’s systems and Datadog (we will address budget neutral alternatives). Sensu is commonly referred to as "the monitoring framework," allowing its users to compose a monitoring system to meet their unique demands. Sensu provides a monitoring agent, transport, event processor, HTTP API, etc.  Datadog is an extensive, easy-to-use platform for understanding your infrastructure. 
+We will look at how we use Sensu, an open source monitoring tool designed for today’s systems and Datadog (we will address budget neutral alternatives). Sensu is commonly referred to as "the monitoring framework," allowing its users to compose a monitoring system to meet their unique demands. Sensu provides a monitoring agent, transport, event processor, HTTP API, etc.  Datadog is an extensive, easy-to-use platform for understanding your infrastructure.
 
 In this presentation, we will discuss each component of a modern monitoring system, comparing several approaches to each of them. We will also cover the advantages and disadvantages of specific tool architectures, talk about Sensu and Datadigs approach to monitoring.

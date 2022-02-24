@@ -76,14 +76,16 @@ venue:
   directions: 'https://medicine.buffalo.edu/about/our_campuses.html#title-1'
   a11y: ''
   hotel:
-    show: false
-    name: 'DEFAULT'
+    show: true
+    multiple-hotels: true
+    multiple-hotels-map: https://www.google.com/maps/d/u/0/viewer?mid=1NVNeQvh5brzIyWVk3iDpAkk_q5dLTOtX&ll=42.8963212217323%2C-78.870584222229&z=15
+    name:
     reserved-room-block: false
-    cost: 'DEFAULT'
-    with-tax-cost: 'DEFAULT'
+    cost:
+    with-tax-cost:
     cost-cutoff-date: 2140-12-31
-    check-in-time: 'DEFAULT'
-    check-out-time: 'DEFAULT'
+    check-in-time:
+    check-out-time:
     self-parking-fee:
     valet-parking-fee:
 
@@ -139,8 +141,8 @@ slide-template:
   url: '/assets/C4L2021-template.pptx'
 
 closed-captioning:
-  url: 'https://2021archive.1capapp.com/event/cod4lib/'
-  show: false
+  url:
+  show: true
 
 # Peri display descriptions and titles
 peri:

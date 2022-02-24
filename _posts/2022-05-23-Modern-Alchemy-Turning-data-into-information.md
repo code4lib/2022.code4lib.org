@@ -9,8 +9,8 @@ max-attendees: 12
 startTime: 1:30pm
 endTime: 4:30pm
 time: pm
-location: 
-room: 
+location: hayes-hall
+room:
 speakers:
 - eric-morgan
 speaker-text: Eric Morgan

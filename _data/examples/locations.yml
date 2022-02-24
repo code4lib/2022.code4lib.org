@@ -1,6 +1,7 @@
 - id: law-school-building
   name: 'CUA Campus - Law School Building'
   google_maps: 'https://goo.gl/maps/tbmqSZkDPjK2'
+  # only provide a URL, we make our own responsive iframe around it
   embed_code: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d617.2297252329815!2d-76.99683608900858!3d38.93622744922624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c7e8639965ed%3A0xf3b10f49d85b2e9b!2sColumbus+School+of+Law+The+Catholic+University+of+America!5e0!3m2!1sen!2sus!4v1517346573765'
 - id: pryzbyla-center
   name: 'CUA Campus - Pryzbyla Center 321'

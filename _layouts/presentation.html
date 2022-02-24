@@ -78,19 +78,19 @@
                 <br>
             {% endif %}
 
-            {% comment %}
-            {% if page.type == 'workshop' %}
+            {% if page.type == 'workshop' and page.location != nil %}
             <div class="col-12 col-sm-8 col-md-9">
                 <h2>Location</h2>
-                <div style="margin: auto; max-width: 600px;" class="embed-responsive embed-responsive-4by3">
+                <div style="margin: auto auto 1em; max-width: 600px;" class="embed-responsive embed-responsive-4by3">
                     <iframe title="workshop location" src="{{ location.embed_code }}"></iframe>
                 </div>
-                <p class="text-center">
-                    <a class="btn ct-btn-light" href="{{ location.floor_plan }}" target="_blank">Floor Plan</a>
-                </p>
+                {% if location.floor_plan != nil %}
+                    <p class="text-center">
+                        <a class="btn ct-btn-light" href="{{ location.floor_plan }}" target="_blank">Floor Plan</a>
+                    </p>
+                {% endif %}
             </div>
             {% endif %}
-            {% endcomment %}
         </div>
         <div class="col-12 col-sm-4 col-md-3 text-center">
             <div class="row talk-detail-box">
@@ -123,15 +123,15 @@
                 </div>
                 {% endif %}
 
-                <!-- building for workshops -->
+                <!-- building for in-person workshops -->
                 {% if page.type == 'workshop' %}
                 <div class="col-12 col-sm-12 col-md-12 time-length">
-                    <!--
-                    <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-map-marker"></span></div>
-                    <div class="talk-box-detail-value">
-                        {{ location_display }}
-                    </div>
-                    -->
+                    {% if location != nil %}
+                        <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-map-marker"></span></div>
+                        <div class="talk-box-detail-value">
+                            {{ location_display }}
+                        </div>
+                    {% endif %}
                     <div>
                         <a class="back-workshops" href="/workshops">⇦ Return to Workshop List</a>
                     </div>

@@ -41,14 +41,31 @@
             Rooms may be available at the group rate before or after the above dates, based on availability at the hotel.
             While the reservation will require a credit card, it will not be charged until you arrive (you may also incur a fee if you do not show, or cancel outside of the allowable cancellation time frame).
         </p>
-        {% else %}
+        {% elsif site.data.conf.venue.hotel.name != nil %}
         <p>
-            The conference hotel is the {{site.data.conf.venue.hotel.name}}. While the reservation will require a credit card, it will not be charged until you arrive (you may also incur a fee if you do not show, or cancel outside of the allowable cancellation time frame).
+            The conference hotel is the {{ site.data.conf.venue.hotel.name }}. While the reservation will require a credit card, it will not be charged until you arrive (you may also incur a fee if you do not show, or cancel outside of the allowable cancellation time frame).
         </p>
         {% endif %}
+        {% if site.data.conf.venue.hotel.check-in-time %}
         <p>
-            Check-in is at {{site.data.conf.venue.hotel.check-in-time}} while check-out is {{site.data.conf.venue.hotel.check-out-time}}. Included in our reservation is free access to the hotel's guest WiFi network.
+            Check-in is at {{site.data.conf.venue.hotel.check-in-time}} while check-out is
+            {{site.data.conf.venue.hotel.check-out-time}}. Included in our reservation is free access to the hotel's guest WiFi
+            network.
         </p>
+        {% endif %}
+
+        {% if site.data.conf.venue.hotel.multiple-hotels %}
+            <p>
+                Due to the nature of hosting this conference on campus, in {{ site.data.conf.year }} there will not be a centralized hotel location.
+                The Local Planning Committee is looking into small blocks of rooms at nearby hotels where we hope to secure rooms at modestly discounted rates.
+                Check back for more information, which will be added here as it becomes available.
+            </p>
+            {% if site.data.conf.venue.hotel.multiple-hotels-map %}
+                <p>
+                    The conference Local Planning Committee has put together <a href="{{ site.data.conf.venue.hotel.multiple-hotels-map }}">a Google Map</a> with pins to help you find lodging in the area around the {{ site.data.conf.venue.name }} building, site of the main conference.
+                </p>
+            {% endif %}
+        {% endif %}
 
         {% if site.data.conf.venue.hotel.self-parking-fee or site.data.conf.venue.hotel.valet-parking-fee %}
             <h3>Parking</h3>
@@ -61,4 +78,11 @@
         {% endif %}
     </div>
     {% endif %}
+
+    <div class="col-12">
+        <h3>Transportation</h3>
+        <p>
+            For information regarding local public transit options, driving directions, and parking availability, please consult the Jacobs School Facilities Planning and Management <a href="https://medicine.buffalo.edu/offices/facilities/parking.html">"Commuting" help page</a>.
+        </p>
+    </div>
 </section>

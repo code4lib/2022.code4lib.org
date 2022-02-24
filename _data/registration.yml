@@ -4,32 +4,43 @@
 
 # include "$" in all "cost" strings, makes templates cleaner
 
+conference:
+  # "show" means display information on the home page and /general-info/attend
+  show: true
+  url: nil
+  start-date: 2022-03-01
+  end-date: 2022-05-02
+  cancellation-date: 2022-05-02
+  # "open" means people can register
+  open: false
+  cost: "$195"
+  late-cost: "$250"
+  workshop-half-day-cost: "$40"
+  workshop-full-day-cost: "$80"
+  limited-capacity: true
+
 workshop-only:
   # "show" only affects a button on the general-info/attend page
   show: false
   url:
   # precon-only registration cost may differ from precons with general registration
-  half-day-cost: "$60"
-  full-day-cost: "$120"
-  start-date: 2022-02-11
+  half-day-cost: "$40"
+  full-day-cost: "$80"
+  start-date: 2022-03-01
 
-conference:
-  # "show" means display information on the home page and /general-info/attend
-  show: false
-  url: "https://na.eventscloud.com/c4l20"
-  start-date: 2022-12-11
-  end-date: 2022-02-10
-  cancellation-date: 2022-02-12
-  # "open" means people can register
-  open: false
-  cost: "$375"
-  late-cost: "$450"
-  workshop-half-day-cost: "$50"
-  workshop-full-day-cost: "$100"
+t-shirt-only:
+  show: true
+  start-date: 2022-03-01
+  cost: $29
+  late-date: 2022-05-03
+  late-cost: $39
 
 childcare:
   # "show" toggles the child care entry on /general-info/attend, under 'Additional Information' heading
   show: false
+  # distinct from `show: false` in that we _know_ we won't be able to offer childcare
+  no-childcare: true
+  no-childcare-text: "Child Care will, unfortunately, not be available in 2022 due to Covid-19 campus policies."
   full-day-cost: "$30"
   half-day-cost: "$15"
   end-date: 2022-02-08

@@ -1,6 +1,14 @@
 <section class="general-info">
     <div class="col-12">
         <h2 id="workshops">Workshops</h2>
-        <p>Workshops are typically held at several convenient locations near the conference hotel. In the past, we've used spaces at local universities and public libraries. Please <a href="/workshops/">check your workshop's location</a>.</p>
+        {%- comment -%}
+        <p>
+            Workshops are typically held at several convenient locations near the conference hotel. In the past, we've used spaces at local universities and public libraries. Please <a href="/workshops/">check your workshop's location</a>.
+        </p>
+        {%- endcomment -%}
+
+        <p>
+            All Pre-Conference workshops will be held {{ site.data.conf.days[0].weekday }}, {{ site.data.conf.days[0].date-data | date: "%B %-d, %Y" }}, in Hayes Hall at the University at Buffalo's South Campus (3435 Main St, Buffalo, NY 14214). This is an approximately 15-minute commute from the JSMBS building, via the Metro Rail and a short amount of walking. The station name for JSMBS is Allen-Medical Campus, and the station name for UB's South Campus is University Station. The Metro Rail is one line.
+        </p>
     </div>
 </section>

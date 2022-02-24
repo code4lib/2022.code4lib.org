@@ -9,8 +9,8 @@ max-attendees: 25
 startTime: 9:00am
 endTime: 12:00pm
 time: am
-location: 
-room: 
+location: hayes-hall
+room:
 speakers:
 - mark-a-matienzo
 - hillel-arnold

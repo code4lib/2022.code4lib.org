@@ -4,13 +4,13 @@ type: workshop
 categories: workshops
 full: false
 learning-outcomes: Figma 101. What Figma is, why you would want to use it, and how to integrate it into the current workflow.
-attendee-requirements: 
+attendee-requirements:
 max-attendees: 20
 startTime: 1:30pm
 endTime: 4:30pm
 time: pm
-location: 
-room: 
+location: hayes-hall
+room:
 speakers:
 - axa-liauw
 - dianne-weinthal
