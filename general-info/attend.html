@@ -153,6 +153,12 @@ active: Attend Code4Lib
                             to register for the conference at full price.
                         {% endif %}
                     </li>
+
+                    {% if site.data.registration.workshop-only.undecided %}
+                        <li>
+                            {{ site.data.registration.workshop-only.undecided-text }}
+                        </li>
+                    {% endif %}
                 </ol>
             </div>
         </div>

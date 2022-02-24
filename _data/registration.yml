@@ -22,6 +22,8 @@ conference:
 workshop-only:
   # "show" only affects a button on the general-info/attend page
   show: false
+  undecided: true
+  undecided-text: "Depending on availability, Pre-Conference ONLY registration may open at the beginning of May."
   url:
   # precon-only registration cost may differ from precons with general registration
   half-day-cost: "$40"
