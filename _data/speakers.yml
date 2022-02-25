@@ -486,12 +486,12 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
 - id: ed-summers
   name: Ed Summers
   last: Summers
-  pronouns:
-  institution:
-  title:
-  bio: ""
+  pronouns: he/him
+  institution: Stanford University
+  title: Software Developer
+  bio: "Ed is interested in techniques and practices for helping make the web more sustainable and durable over time."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: /assets/img/speakers/ed-summers.jpg
   image_alt:
 
 - id: evan-peter-williamson
