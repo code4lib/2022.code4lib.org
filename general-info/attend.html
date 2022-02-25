@@ -209,16 +209,14 @@ active: Attend Code4Lib
                 {% if site.data.conf.closed-captioning.show %}
                 {% assign sponsors = site.data.sponsors | where:"transcription","true" %}
                 <h3>Live Transcription</h3>
+                {% if site.data.conf.closed-captioning.url != nil %}
                 <p>
-                    We are thrilled to be able to provide
-                    {% if site.data.conf.closed-captioning.url != nil %}
-                        <a href="{{ site.data.conf.closed-captioning.url }}">
-                    {% endif %}
-                        live transcriptions of all the presentations
-                    {% if site.data.conf.closed-captioning.url != nil %}</a>{% endif %}.
-                    {% if site.data.conf.closed-captioning.url == nil %}
-                        A link to view the transcriptions will be added here in the days leading up to the conference.
-                    {% endif %}
+                    We are thrilled to be able to provide <a href="{{ site.data.conf.closed-captioning.url }}">
+                    live transcriptions of all the presentations</a>.
+                {% else %}
+                    We are thrilled to be able to provide live transcriptions of all the presentations.
+                {% endif %}
+                    A link to view the transcriptions will be added here in the days leading up to the conference.
                 </p>
                 {% if sponsors.size > 0 %}
                     <p>
