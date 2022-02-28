@@ -86,6 +86,16 @@ $footer-hover:            darken($footer-link, 6.5%);
 $clip-circle-border:      $primary;
 $clip-circle-border-size: 2px;
 
+// Lanyards
+$lanyard-bg-green:        #008000;
+$lanyard-text-green:      #fff;
+$lanyard-bg-yellow:       #f7e73d;
+$lanyard-text-yellow:     #000;
+$lanyard-bg-red:          #c72c2c;
+$lanyard-text-red:        #fff;
+$lanyard-bg-zebra:        $gray-base;
+$lanyard-text-zebra:      $transparent;
+
 // Sponsor Badges
 $sponsor-badge-primary:   $accent;
 $sponsor-badge-secondary: $accent-light;
