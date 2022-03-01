@@ -142,3 +142,8 @@
   img: /assets/img/sponsors/blacklight.svg
   link: https://projectblacklight.org
   level: platinum
+
+- name: DPLA
+  img: /assets/img/sponsors/DPLA.jpeg
+  link: https://dp.la
+  level: contributor
