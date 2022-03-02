@@ -1,16 +1,18 @@
-# can-seat-more... and price-point are not used in general-info/venues/dinner.html
+# can-seat-more... and city-state are not used on general-info/venues/dinner.html
+# for sorting purposes:
+# - distance should start with a number
+# - price point should start with a $ and then a number
 - restaurant-name: Apteka
   city-state: Pittsburgh PA
   url: https://aptekapgh.com/
   type-of-food: Vegan
-  distance-from-hotel: More than 1 mile
+  distance-from-hotel: 1 mile
   vegetarian-options: Yes
   vegan-options: Yes
   takes-reservations: No
   can-seat-more-than-one-group-of-6: No
   price-point: $11-30
-  notes:
-  accessibility-notes: Accessible entry
+  accessibility-and-notes: Accessible entry.
 
 - restaurant-name: Foodies Food Palace
   city-state: Paris, Texas
@@ -22,9 +24,7 @@
   takes-reservations: Yes
   can-seat-more-than-one-group-of-6: Yes
   price-point: $10-23
-  notes: Very loud atmosphere.
-  accessibility-notes:
-
+  accessibility-and-notes: Very loud atmosphere.
 
 - restaurant-name: Place w/o a Website
   city-state: Dublin, Ohio
@@ -36,5 +36,16 @@
   takes-reservations: Yes
   can-seat-more-than-one-group-of-6: No
   price-point: $30-40
-  notes:
-  accessibility-notes:
+  accessibility-and-notes:
+
+- restaurant-name: Plant-based Prandial
+  city-state: Berlin, NH
+  url: https://example.com
+  type-of-food: Vegan
+  distance-from-hotel: 2 miles
+  vegetarian-options: No
+  vegan-options: Yes
+  takes-reservations: Yes
+  can-seat-more-than-one-group-of-6: Yes
+  price-point: $15-30
+  accessibility-and-notes: Accessible entry.

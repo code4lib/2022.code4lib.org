@@ -34,9 +34,9 @@
                     <th width="20%">Name</th>
                     <th>Type</th>
                     <th>Distance</th>
+                    <th>Price Point</th>
                     <th>Takes<br/>Reservations?</th>
-                    <th>Vegetarian<br/>Friendly?</th>
-                    <th>Vegan<br/>Friendly?</th>
+                    <th>Vegetarian or<br/>Vegan Friendly?</th>
                 </tr>
             </thead>
             <tbody>
@@ -48,15 +48,15 @@
                       {% else %}
                         {{ restaurant.restaurant-name }}
                       {% endif %}
-                        {% if restaurant.notes or restaurant.accessibility-notes %}
-                         <i tabindex="0" class="fas fa-question-circle fa-sm" data-toggle="tooltip" title="{{ restaurant.notes }} {{ restaurant.accessibility-notes }}"></i>
-                        {% endif %}
+                      {% if restaurant.accessibility-and-notes %}
+                        <i tabindex="0" class="fas fa-question-circle fa-sm" data-toggle="tooltip" title="{{ restaurant.accessibility-and-notes }}"></i>
+                      {% endif %}
                     </td>
                     <td>{{ restaurant.type-of-food }}</td>
                     <td>{{ restaurant.distance-from-hotel }}</td>
+                    <td>{{ restaurant.price-point }}</td>
                     <td>{% if restaurant.takes-reservations == true %}Yes{% else %}No{% endif %}</td>
-                    <td>{% if restaurant.vegetarian-options == true %}Yes{% else %}No{% endif %}</td>
-                    <td>{% if restaurant.vegan-options == true %}Yes{% else %}No{% endif %}</td>
+                    <td>{% if restaurant.vegetarian-options and restaurant.vegan-options %}Vegetarian & Vegan{% elsif restaurant.vegetarian-options %}Vegetarian{% elsif restaurant.vegan-options %}Vegan{% else %}No{% endif %}</td>
                 </tr>
                 {% endfor %}
             </tbody>
