@@ -9,6 +9,7 @@
   twitter:
   slack:
   github:
+  image_alt: "A medium-skinned Asian woman with a pixie cut wearing a gray shirt and round eyeglasses with black frames. Trees and other greenery are behind her."
   image_src: /assets/img/speakers/crystal-lee.jpg
   keynote: true
 
@@ -109,7 +110,7 @@
   bio: "Margaret Heller is Digital Services Librarian at Loyola University Chicago, where she works on front-end web development, digital collections, and scholarly communications. She currently serves as President-Elect of Core, a division of ALA. Her scholarly interests include library technology community success, women in library technology, and improving access to digital resources. She also writes frequent book reviews for Library Journal and chairs the ELUNA Primo Working Group. In her personal life she enjoys taking her kids on tiny adventures and is slowly learning to play the guitar."
   keynote: FALSE
   image_src:
-  image_alt:
+  image_alt: "Subtle smile, medium length blond hair that does not match my current hair, sleeveless blue dress"
 
 
 - id: eric-phetteplace
@@ -133,7 +134,7 @@
   bio: "Formerly Chief Technology Officer and Professor at the University of Rhode Island Libraries. Before that, she was Associate Director for Library Applications and Knowledge Systems at University of Maryland, Baltimore, Health Sciences and Human Services Library and one of the four founding librarians of the Florida International University Medical Library that opened in 2009. She is the author of three books, Moving Forward with Digital Disruption (ALA TechSource, 2020), The Library Mobile Experience: Practices and User Expectations (ALA TechSource, 2013), and Understanding Gamification (ALA TechSource, 2015). She has published many articles and given numerous invited/peer-reviewed presentations on a variety of topics related to library technologies and their impact on libraries."
   keynote: FALSE
   image_src:
-  image_alt:
+  image_alt: "A headshot photo of Bohyun Kim with a blank wall as the background."
 
 
 - id: dr-patrick-murray-john
@@ -289,7 +290,7 @@
   bio: "Heather Greer Klein is the Samvera Community Manager. She has worked in many roles supporting open source and consortial library communities. Heather has an MLIS from Simmons University and a Certificate in Training & Development from NC State University."
   keynote: FALSE
   image_src:
-  image_alt:
+  image_alt: "A smiling white woman with a round face, purple glasses and short, curly, purple-tipped hair. She is outdoors and there are leaves in the background."
 
 
 - id: chulin-meng
@@ -697,7 +698,7 @@
   bio: "Clara Turp is a discovery systems librarian at McGill University Libraries. As part of Digital Initiatives, she is involved in managing, configuring, and integrating selected library systems, including, but not limited to the Library's Discovery layers."
   keynote: FALSE
   image_src:
-  image_alt:
+  image_alt: "A brunette white woman is standing in front of a bookshelf. She is wearing black glasses, a red shirt layered with a beige cardigan. She is smiling at the camera."
 
 
 - id: kelly-stathis
@@ -830,7 +831,7 @@ Axa is a Certified Professional in Web Accessibility, a certification provided b
   position-title:
   bio: 'Eric Morgan is a librarian who works in the Navari Family Center for Digital Scholarship (University of Notre Dame) where he provides text mining and natural language processing for students, researchers, and scholars. He has been practicing librarianship for more than thirty years, mostly in higher education. He has been writing software longer than that. In his spare time he enjoys binding his books, rowing his boat, and playing his guitar.'
   image_src:
-  image_alt:
+  image_alt: "Eric is a librarian"
   keynote: FALSE
 
 - id: andreas-orphanides
@@ -841,7 +842,7 @@ Axa is a Certified Professional in Web Accessibility, a certification provided b
   position-title:
   bio: 'Andreas Orphanides is Associate Head, User Experience at the NC State University Libraries. His work focuses on developing high-quality, thoughtfully designed solutions to support teaching, learning, and information discovery. He holds a Bachelor of Arts in Mathematics from Oberlin College, a Master of Science in Library Science from UNC-Chapel Hill, and a Master of Computer Science from NC State University. His professional interests include human factors, systems analysis, and design ethics. Outside of work, he has too many cats.'
   image_src: /assets/img/speakers/andreas-orphanides.jpeg
-  image_alt:
+  image_alt: "A line drawing of a curly-haired, goateed, bespectacled, poorly-shaven gentleman in a t-shirt, cuddling a perplexed-looking white and orange cat in his arms; squiggles and stars emanate from the gentleman's head. The background is a rainbow gradient."
   keynote: FALSE
 
 - id: francis-kayiwa
