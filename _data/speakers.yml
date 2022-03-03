@@ -109,7 +109,7 @@
   title: Digital Services Librarian
   bio: "Margaret Heller is Digital Services Librarian at Loyola University Chicago, where she works on front-end web development, digital collections, and scholarly communications. She currently serves as President-Elect of Core, a division of ALA. Her scholarly interests include library technology community success, women in library technology, and improving access to digital resources. She also writes frequent book reviews for Library Journal and chairs the ELUNA Primo Working Group. In her personal life she enjoys taking her kids on tiny adventures and is slowly learning to play the guitar."
   keynote: FALSE
-  image_src:
+  image_src: /assets/img/speakers/margaret-heller.jpg
   image_alt: "Subtle smile, medium length blond hair that does not match my current hair, sleeveless blue dress"
 
 
@@ -133,7 +133,7 @@
   title: Associate University Librarian for Library Information Technology
   bio: "Formerly Chief Technology Officer and Professor at the University of Rhode Island Libraries. Before that, she was Associate Director for Library Applications and Knowledge Systems at University of Maryland, Baltimore, Health Sciences and Human Services Library and one of the four founding librarians of the Florida International University Medical Library that opened in 2009. She is the author of three books, Moving Forward with Digital Disruption (ALA TechSource, 2020), The Library Mobile Experience: Practices and User Expectations (ALA TechSource, 2013), and Understanding Gamification (ALA TechSource, 2015). She has published many articles and given numerous invited/peer-reviewed presentations on a variety of topics related to library technologies and their impact on libraries."
   keynote: FALSE
-  image_src:
+  image_src: /assets/img/speakers/bohyun-kim.jpg
   image_alt: "A headshot photo of Bohyun Kim with a blank wall as the background."
 
 
@@ -229,7 +229,7 @@
   title:
   bio: "Dr. Kate Deibel is a longstanding advocate for accessibility and usability in library technologies. She has a PhD in Computer Science from the University of Washington but would much rather talk about web comics, chili peppers, her cat, technology adoption, and changing the world."
   keynote: FALSE
-  image_src:
+  image_src: /assets/img/speakers/kate-deibel.jpg
   image_alt: "Cartoon avatar of a quite pale white bespectacled brunette geek girl whose open downturned mouth is adamantly advocating an important point or three. A bookcase is behind her."
 
 
@@ -289,7 +289,7 @@
   title: Samvera Community Manager
   bio: "Heather Greer Klein is the Samvera Community Manager. She has worked in many roles supporting open source and consortial library communities. Heather has an MLIS from Simmons University and a Certificate in Training & Development from NC State University."
   keynote: FALSE
-  image_src:
+  image_src: /assets/img/speakers/heather-greer-klein.jpg
   image_alt: "A smiling white woman with a round face, purple glasses and short, curly, purple-tipped hair. She is outdoors and there are leaves in the background."
 
 
@@ -697,7 +697,7 @@
   title: Discovery Systems Librarian
   bio: "Clara Turp is a discovery systems librarian at McGill University Libraries. As part of Digital Initiatives, she is involved in managing, configuring, and integrating selected library systems, including, but not limited to the Library's Discovery layers."
   keynote: FALSE
-  image_src:
+  image_src: /assets/img/speakers/clara-turp.jpg
   image_alt: "A brunette white woman is standing in front of a bookshelf. She is wearing black glasses, a red shirt layered with a beige cardigan. She is smiling at the camera."
 
 
@@ -830,7 +830,7 @@ Axa is a Certified Professional in Web Accessibility, a certification provided b
   institution:
   position-title:
   bio: 'Eric Morgan is a librarian who works in the Navari Family Center for Digital Scholarship (University of Notre Dame) where he provides text mining and natural language processing for students, researchers, and scholars. He has been practicing librarianship for more than thirty years, mostly in higher education. He has been writing software longer than that. In his spare time he enjoys binding his books, rowing his boat, and playing his guitar.'
-  image_src:
+  image_src: /assets/img/speakers/eric-morgan.jpg
   image_alt: "Eric is a librarian"
   keynote: FALSE
 
