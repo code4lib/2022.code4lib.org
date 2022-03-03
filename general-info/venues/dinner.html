@@ -49,7 +49,7 @@
                         {{ restaurant.restaurant-name }}
                       {% endif %}
                       {% if restaurant.accessibility-and-notes %}
-                        <i tabindex="0" class="fas fa-question-circle fa-sm" data-toggle="tooltip" title="{{ restaurant.accessibility-and-notes }}"></i>
+                        <i tabindex="0" role="tooltip" class="fas fa-question-circle fa-sm" title="{{ restaurant.accessibility-and-notes | smartify }}"></i>
                       {% endif %}
                     </td>
                     <td>{{ restaurant.type-of-food }}</td>
