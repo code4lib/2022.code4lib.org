@@ -147,3 +147,13 @@
   img: /assets/img/sponsors/DPLA.jpeg
   link: https://dp.la
   level: contributor
+
+- name: Springshare
+  img: /assets/img/sponsors/springshare.png
+  link: https://springshare.com
+  level: contributor
+
+- name: Johns Hopkins University
+  img: /assets/img/sponsors/jhu.jpg
+  link: https://www.library.jhu.edu/
+  level: bronze
