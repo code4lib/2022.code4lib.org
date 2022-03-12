@@ -194,7 +194,7 @@
   title: Metadata Manager
   bio: "Tomasz Kalata is the Metadata Manager in the Cataloging Department at BookOps, the shared technical services collaboration of New York Public Library and Brooklyn Public Library. He is responsible for development of cataloging applications, especially related to automation in cataloging work. Before joining BookOps in 2013 as a cataloger, he was a Senior Cataloger at Brooklyn Public Library. "
   keynote: FALSE
-  image_src:
+  image_src: /assets/img/speakers/tomasz-kalata.jpg
   image_alt: "Bearded white man wearing tortoiseshell glasses. He has fear in his eyes that a full bookshelf behind him is not enough to distract from his impostor syndrome."
 
 
@@ -242,7 +242,7 @@
   title: Associate Professor and Data Management Librarian
   bio: ""
   keynote: FALSE
-  image_src: /assets/img/speakers/abigail-goben.png
+  image_src: /assets/img/speakers/abigail-goben.jpg
   image_alt: "White brunette woman wearing tortoiseshell glasses and gold earrings. She is outside and smiling."
 
 
@@ -578,7 +578,7 @@
   title: Digital Archivist
   bio: "Elizabeth D. James is a Digital Archivist at the West Virginia Regional History Center at West Virginia University. Her research interests include using cultural heritage metadata as data for teaching, discovery, and research; non-traditional forms of engagement with digital archival materials and scalable approaches to digital preservation and repository management for small and medium size institutions."
   keynote: FALSE
-  image_src:
+  image_src: /assets/img/speakers/elizabeth-james.jpg
   image_alt: "Smiling person with dark brown hair and bright blue eyes wearing a black shirt with a bright floral print and the iconic and ever-ubiquitous archivist attire: a grey cardigan. The background is a generic beige concrete wall."
 
 
@@ -626,7 +626,7 @@
   title: Research Scientist
   bio: "Inna Kouper is a research scientist at the Luddy School of Informatics, Computing, and Engineering at Indiana University Bloomington. She studies emerging technologies and data practices and works on projects that advance open science and data sharing."
   keynote: FALSE
-  image_src:
+  image_src: /assets/img/speakers/inna-kouper.jpg
   image_alt: "Photo of a white middle-aged female with short hair. The background is a whiteboard."
 
 
@@ -722,7 +722,7 @@
   title: Digital Metadata Librarian
   bio: "Ingrid Reiche is the Digital Metadata Librarian at the University of Calgary. Her work focuses on digital collections, providing metadata consultation for research projects. She has recently been been working on the system migration for the digital asset management system. Ingrid enjoys living in Calgary and being outdoors."
   keynote: FALSE
-  image_src:
+  image_src: /assets/img/speakers/ingrid-reiche.jpg
   image_alt: "An androgynous white woman with a subtle smile, asymmetrical light brown hair shaved on the left side, wearing a dark red shirt with a white pattern and grey/black vest. The background blurred."
 
 
