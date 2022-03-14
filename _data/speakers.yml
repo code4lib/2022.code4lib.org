@@ -881,14 +881,14 @@ Cary is devoted to empowering libraries to enhance and extend their services thr
   image_alt: 'Headshot of Josh Weisman from Ex Libris'
   keynote: FALSE
 
-- id: mark-a-matienzo
-  name: Mark A. Matienzo
+- id: m-a-matienzo
+  name: M.A. Matienzo
   last: Matienzo
   pronouns:
-  institution:
+  institution: Stanford University Libraries
   position-title:
-  bio: ''
-  image_src: /assets/img/speakers/mark-a-matienzo.jpeg
+  bio: 'M.A. Matienzo is an archivist, technologist, and ambient musician. Their work for Stanford University Libraries includes serving as the project lead for Lighting the Way, an IMLS National Forum Grant focused on improving archival discovery and delivery, and managing a portfolio of digital library discovery and access services and systems. They received a MSI from the University of Michigan School of Information and a BA in Philosophy from the College of Wooster, and was the 2012 recipient of the Mark A. Greene Emerging Leader Award from the Society of American Archivists. They reside on the unceded ancestral lands of the Duwamish People past and present, who are still actively working for federal recognition.'
+  image_src: /assets/img/speakers/m-a-matienzo.jpeg
   image_alt:
   keynote: FALSE
 
