@@ -91,6 +91,21 @@
 
 #workshop-sorting-div {
   margin-bottom: 20px;
+
+  & button {
+    border: 1px solid $gray-light;
+
+    &:hover,
+    &:active {
+      background-color: $accent;
+    }
+
+    &:focus {
+      background-color: $accent;
+      outline: $pagination-focus-outline;
+      box-shadow: $pagination-focus-box-shadow;
+    }
+  }
 }
 
 .workshop-well {
