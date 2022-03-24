@@ -42,7 +42,7 @@
     color: $jumbotron-btn-color;
     margin: .5em .5em 0 0;
 
-    &:hover {
+    &:hover,&:focus {
       background-color: $jumbotron-btn-color;
       color: $gray-base;
     }
