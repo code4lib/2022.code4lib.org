@@ -97,13 +97,17 @@
 
     &:hover,
     &:active {
-      background-color: $accent;
+      background-color: $accent-dark;
     }
 
     &:focus {
-      background-color: $accent;
+      background-color: $white;
       outline: $pagination-focus-outline;
       box-shadow: $pagination-focus-box-shadow;
+    }
+
+    &.active {
+      background-color: $accent;
     }
   }
 }
