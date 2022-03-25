@@ -104,6 +104,7 @@
       background-color: $white;
       outline: $pagination-focus-outline;
       box-shadow: $pagination-focus-box-shadow;
+      z-index: 4;
     }
 
     &.active {
