@@ -3,12 +3,12 @@ layout: presentation
 speakers-text: Lauren Chambers
 speakers:
 - lauren-chambers
-day: 1
-group: key-open
+day: 3
+group: key-close
 spot: 1
 length: 45
-type: key-open
-startTime: 2022-05-24T09:15
+type: key-close
+startTime: 2022-05-26T09:15
 categories: keynotes
 title: Lauren Chambers Keynote
 slides:
