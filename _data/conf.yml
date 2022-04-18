@@ -260,24 +260,37 @@ shirt-voting:
 # usually on the wiki
 social-activities-url: ''
 
-community-gathering:
-  show: false
-  date: '2022-03-22'
-  time: '7PM'
-  description: 'Are you a crafter, artist, maker, or collector? We want your show-and-tell proposal! Please fill out the interest form by March 1st.'
+simulation:
+  show: true
+  date: '2022-05-25'
+  time: '10:10AM to 10:50AM'
+  location: 'Behling Human Simulation Center - Jacobs School of Medicine and Biomedical Sciences'
+  description: 'The Behling Human Simulation Center is a facility where learners are exposed to high-risk, low-frequency events through the use of high-fidelity simulated patients. Simulations can range from communication scenarios with a concerned/abusive parent (portrayed by a local actor) while treating their child, to life-threatening code scenarios, to child delivery. Workshops are regularly held using task trainers to either learn, or brush-up on specific skills such as intubation and airway management. The use of these simulated patients allows learners to experience and utilize their skills without the risk to human life. <br/><br/>The sign up sheet will be available at Wednesday’s morning registration table.'
+  event-url: ''
+  event-url-button-text: ''
+  sign-up-url: ''
+  sign-up-button-text: ''
+
+tours:
+  show: true
+  date: '2022-05-25'
+  time: '6:30PM to 7:30PM'
+  location: ''
+  description: 'There are two tours available: the "Architecture Timeline: Downtown Walking Tour", and the "Turn of the Century Treasures Tour". <br/><br/> The "Architecture Timeline: Downtown Walking Tour" is a chronological walk through architectural time from the mid-nineteenth century to the early twenty-first century. We’ll see excellent examples of all the major architectural styles prevalent in commercial and government office construction during this period. This tour begins at: Northwest Corner of Main St. and Seneca St. Downtown Buffalo, 14203 (Seneca Station Light Metro Rail). <br/><br/> The "Turn of the Century Treasures Tour" is a downtown walking tour of some of the best examples of the Beaux-Arts style in Buffalo! Popular in the late nineteenth and early twentieth century, Beaux-Arts, which translates as “Beautiful Arts” and began in Paris, is characterized by elaborate detail and ornamentation, with many classical influences. The buildings seen on this tour exemplify Buffalo at the turn of the twentieth century, when the city was the eighth largest in America and hosted the Pan-American Exposition. Many were designed by prominent local architectural firms, including Green & Wicks and Esenwein & Johnson. This tour begins at: Front entrance of Hotel @ the Lafayette, 391 Washington St, Buffalo, NY 14203 (Church Street Station Light Metro Rail). <br/><br/> Sign up will be available at the registration desk and will cost $15 at registration. There will be 15 people max on each tour.'
   event-url: ''
   event-url-button-text: ''
   sign-up-url: ''
   sign-up-button-text: ''
 
 game-night:
-  show: false
-  date: '2022-03-23'
-  time: '6PM to 8PM'
-  description: 'Play games? Come join your fellow code4libers in a few board or card games!'
+  show: true
+  date: '2022-05-25'
+  time: '7:00PM to 11:00PM'
+  location: 'Wyndham Garden Buffalo Downtown, 125 High St, Buffalo, NY. Buffalo Room.'
+  description: 'Play games? Come join your fellow code4libers in a few board or card games! Games night will take place at the Wyndham Garden Buffalo Downtown. Outside food and drinks are allowed.'
   event-url: ''
   event-url-button-text: ''
-  sign-up-url: ''
+  sign-up-url: 'https://docs.google.com/spreadsheets/d/1rPr6TxP5qxHnx2PMPvZK9im2b-ZmqZcTCVFOmwaQZLU/edit#gid=0'
   sign-up-button-text: 'Sign Up for Game Night'
 
 karaoke-night:
@@ -299,6 +312,9 @@ trivia-night:
   event-url-button-text: ''
   sign-up-url: ''
   sign-up-button-text: 'Sign Up! Registration Limited'
+
+diy-social:
+  show: true
 
 # see also: dinner.yml file of restaurant locations
 newcomer-dinner:

@@ -51,6 +51,48 @@ title: Schedule
     </div>
     {% endif %}
 
+    {% if site.data.conf.simulation.show %}
+    <div class="row">
+        <div class="col-12 col-md-3 text-right">
+            <h3>{{ site.data.conf.simulation.time }}
+                <br/><div class="timezone">{{ site.data.conf.timezone }} Time</div>
+            </h3>
+        </div>
+        <div class="col-12 col-md-9 sched-well">
+            <h4>Simulation Workshop</h4>
+            <p>
+                See the <a href="/general-info/social/#simulation">Social Activities</a> page for more details.
+            </p>
+            {% if site.data.conf.simulation.sign-up-url != '' %}
+                <p>
+                    <a class="btn ct-btn-light" href="{{ site.data.conf.simulation.sign-up-url }}">{{ site.data.conf.simulation.sign-up-button-text }}</a>
+                </p>
+            {% endif %}
+        </div>
+    </div>
+    {% endif %}
+
+    {% if site.data.conf.tours.show %}
+    <div class="row">
+        <div class="col-12 col-md-3 text-right">
+            <h3>{{ site.data.conf.tours.time }}
+                <br/><div class="timezone">{{ site.data.conf.timezone }} Time</div>
+            </h3>
+        </div>
+        <div class="col-12 col-md-9 sched-well">
+            <h4>Tours</h4>
+            <p>
+                See the <a href="/general-info/social/#tours">Social Activities</a> page for more details.
+            </p>
+            {% if site.data.conf.tours.sign-up-url != '' %}
+                <p>
+                    <a class="btn ct-btn-light" href="{{ site.data.conf.tours.sign-up-url }}">{{ site.data.conf.tours.sign-up-button-text }}</a>
+                </p>
+            {% endif %}
+        </div>
+    </div>
+    {% endif %}
+
     {% if site.data.conf.newcomer-dinner.show %}
     <div class="row">
         <div class="col-12 col-md-3 text-right">
@@ -59,11 +101,10 @@ title: Schedule
         <div class="col-12 col-md-9 sched-well">
             <h4><a href="/general-info/venues/#dinner">Newcomer Dinner</a></h4>
             <p>
-                It is a Code4Lib tradition to welcome those who are new to the conference
-                by organizing dinner groups on the night before the general conference begins.
+                It is a Code4Lib tradition to welcome those who are new to the conference by organizing dinner groups on the night before the general conference begins.
                 Sign-up is organized by the <a href="https://wiki.code4lib.org/Code4Lib_{{site.data.conf.year}}_Conference_Committees#Social_Activities_Committee">Social Activities Committee</a>
                 on the wiki, and we try to mix a few newcomers with a few veterans
-                who can offer an informal introduction to the conference.  Great for making new friends!
+                who can offer an informal introduction to the conference. Great for making new friends!
             </p>
             {% if site.data.conf.newcomer-dinner.signup-url != '' %}
             <p>
@@ -102,7 +143,9 @@ title: Schedule
             </h3>
         </div>
         <div class="col-12 col-md-9 sched-well">
-            <h4>Game Night</h4>
+            <h4>
+                <a href="/general-info/social/#game-night">Game Night</a>
+            </h4>
             <p>
                {{ site.data.conf.game-night.description }}
             </p>
@@ -118,7 +161,9 @@ title: Schedule
     {% if site.data.conf.reception.show %}
     <div class="row">
         <div class="col-12 col-md-3 text-right">
-            <h3>{{ site.data.conf.reception.times }}</h3>
+            <h3>{{ site.data.conf.reception.times }}                
+                <br/><div class="timezone">{{ site.data.conf.timezone }} Time</div>
+            </h3>
         </div>
         <div class="col-12 col-md-9 sched-well">
             <h4>

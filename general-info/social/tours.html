@@ -1,0 +1,19 @@
+{% if site.data.conf.tours.show %}
+<section class="general-info social-event">
+  <div class="col-12">
+      <h2 id="tours">Tours</h2>
+      <div class="social-event-details">
+          <p><span class="font-weight-bold">When: </span>{{site.data.conf.tours.date | date: '%A, %B %-d, %Y'}}, {{site.data.conf.tours.time}}</p>
+          <p>{{ site.data.conf.tours.description }}</p>
+
+          {% if site.data.conf.tours.sign-up-url != '' %}
+            <a class="btn ct-btn-light" target="blank" href="{{site.data.conf.tours.sign-up-url}}">{{site.data.conf.tours.sign-up-button-text}}</a>
+          {% endif %}
+
+          {% if site.data.conf.tours.event-url != '' %}
+            <a class="btn ct-btn-light" target="blank" href="{{site.data.conf.tours.event-url}}"> {{site.data.conf.tours.event-url-button-text}}</a>
+          {% endif %}
+      </div>
+  </div>
+</section>
+{% endif %}

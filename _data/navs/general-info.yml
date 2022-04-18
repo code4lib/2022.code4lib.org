@@ -10,7 +10,7 @@
 #  url: /general-info/financial-assistance
 #- name: First Timers
 #  url: /general-info/first-timers
-#- name: Social Activities
-#  url: /general-info/social
+- name: Social Activities
+  url: /general-info/social
 - name: About Code4Lib
   url: /general-info/about-c4l
