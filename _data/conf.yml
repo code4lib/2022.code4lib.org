@@ -258,7 +258,7 @@ shirt-voting:
 ##################
 
 # usually on the wiki
-social-activities-url: ''
+social-activities-url: '/general-info/social/'
 
 simulation:
   show: true
