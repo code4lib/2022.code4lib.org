@@ -6,15 +6,15 @@
       <p>
           The Newcomer Dinner is an opportunity for veterans of the code4lib conference to meet and welcome first-timers. Attendees sign up to join others for dinner the night before the main sessions of conference begin.
           {% if site.data.conf.newcomer-dinner.signup-url != '' %}
-             See <a target="blank" href="{{site.data.conf.newcomer-dinner.signup-url}}">information about   the dinner and the sign-up list here</a>. Attendees are responsible in assessing the   accessibility of the restaurant space of their choice.
+             See <a target="blank" href="{{site.data.conf.newcomer-dinner.signup-url}}">information about the dinner and the sign-up list here</a>. Attendees are responsible in assessing the accessibility of the restaurant space of their choice.
           {% endif %}
       </p>
 
       <h3>Transportation</h3>
       <p>Attendees must arrange for their own transportation to the restaurants.
       {% if site.data.conf.newcomer-dinner.activities-info != '' %}
-              To get a sense of the locations and neighborhoods, you can check out the
-              <a target="blank" href="{{site.data.conf.newcomer-dinner.activities-info}}">Activities Map</a>.
+        To get a sense of the locations and neighborhoods, you can check out the
+        <a target="blank" href="{{site.data.conf.newcomer-dinner.activities-info}}">Activities Map</a>.
       {% endif %}
       </p>
 
@@ -27,7 +27,7 @@
 
 
       <h3>Restaurant List</h3>
-      <p>The majority of restaurants listed below are priced between $11-30 dollars.</p>
+      <p>Keep in mind, this is not an exhaustive list. Feel free to add more on <a href="{{site.data.conf.newcomer-dinner.signup-url}}">the sign-up sheet</a>.</p>
       <table class="table table-striped table-bordered" id="dinner-datatable">
             <thead>
                 <tr>
@@ -61,6 +61,5 @@
                 {% endfor %}
             </tbody>
       </table>
-      <p>Keep in mind, this is not an exhaustive list. Feel free to add more on the sign-up sheet.</p>
   </div>
 </section>

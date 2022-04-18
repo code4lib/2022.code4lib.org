@@ -302,12 +302,12 @@ trivia-night:
 
 # see also: dinner.yml file of restaurant locations
 newcomer-dinner:
-  show: false
+  show: true
   # entering the URL doubles as a "show more info" switch, too
-  signup-url: 'https://docs.google.com/document/d/1XCql9YgWydMluKfeAN9veDfms8u38shzE2wLlym179I/edit#heading=h.vmyysg627xj7'
-  transit-info: 'https://docs.google.com/document/d/1vOgMNG0kOaPdsvnjNLld5xlK7pLKZPYzytp7u14MRnQ/edit'
-  activities-info: 'https://www.google.com/maps/d/viewer?mid=1RI4SjmFkzoYX1k5cUgTlJ5zzjHQeAhui&ll=40.44383527823009%2C-79.9586392&z=14'
-  date: '2022-03-08'
+  signup-url: 'https://docs.google.com/document/d/1kG53yWe3rVAx8ck4GaAv4bFRxKgthJgFZ3UzAFGrvbc/edit#'
+  transit-info: 'https://docs.google.com/document/d/1kG53yWe3rVAx8ck4GaAv4bFRxKgthJgFZ3UzAFGrvbc/edit#'
+  activities-info: 'https://www.google.com/maps/d/u/0/viewer?mid=19KBXCOtzJSle2hGG2BSm6WGyT8-AZOGF&ll=42.9255235816872%2C-78.8159373&z=12'
+  date: '2022-05-23'
 
 libtech-women:
   show: false
