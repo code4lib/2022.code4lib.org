@@ -317,19 +317,19 @@ libtech-women:
   hashtag: libtechwomen
 
 reception:
-  show: false
-  venue: 'Carnegie Museum of Pittsburgh - Oakland'
-  url: 'https://cmoa.org/about/hall-of-sculpture/'
-  street: '4400 Forbes Ave'
-  postal-code: '15213'
-  phone: '+1(412)-353-4795'
-  contact: 'straubn@carnegiemuseums.org'
-  floorplan: 'https://cmoa.org/wp-content/uploads/2016/07/z_map-for-websites.pdf'
-  image: 'hall_of_sculpture.jpg'
-  image_title: 'Photograph from the Hall of Sculpture balcony'
-  image_alt: 'Hall of Sculpture'
-  times: '6:30PM to 8:30PM'
-  date: '2022-03-09'
+  show: true
+  venue: 'Pearl Street Grill & Brewery'
+  url: 'https://pearlstreetgrill.com/'
+  street: '76 Pearl Street, Buffalo NY'
+  postal-code: '14202'
+  phone: '+1(716)-856-2337'
+  contact: 'https://pearlstreetgrill.com/contact-us'
+  floorplan:
+  image: 'pearl-street.jpg'
+  image_title: 'Pearl Street Grill & Brewery'
+  image_alt: 'Pearl Street Grill & Brewery'
+  times: '6:00PM to 9:00PM'
+  date: '2022-05-24'
 
 self-event:
   show: false

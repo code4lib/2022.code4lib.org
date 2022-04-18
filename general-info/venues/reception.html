@@ -3,7 +3,7 @@
     <div class="col-12">
         <h2 id="reception">Reception</h2>
 
-        {% unless site.data.conf.reception.venue.show %}
+        {% unless site.data.conf.reception.show %}
             Stay tuned… When the location and timing of the conference reception is confirmed, the details will be added here.
         {% else %}
 
@@ -20,46 +20,30 @@
                         {{site.data.conf.reception.street}}<br />
                         {{site.data.conf.city-state}} {{site.data.conf.reception.postal-code}}<br />
                         <a href="tel:{{site.data.conf.reception.phone}}">{{site.data.conf.reception.phone}}</a> or <a
-                            href="mailto:{{site.data.conf.reception.contact}}">email</a>{% if site.data.conf.reception.floorplan %}
+                            href="{{site.data.conf.reception.contact}}">contact online</a>{% if site.data.conf.reception.floorplan != nil %}
                         | <a href="{{site.data.conf.reception.floorplan}}">Floor Plan</a> {% endif %}<br />
-                        <a href="https://cmoa.org/visit/directions/">Visiting the Museum</a>
+                        <a href="https://pearlstreetgrill.com/about-us/">About the Brewery</a>
                     </p>
                 </div>
             </div>
 
             <div class="col-12">
-                <h3>Directions</h3>
-                <p><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> <strong>Don't forget your
-                        conference name tag and lanyard!</strong></p>
-                <p>Shuttle services travelling from the hotel to the reception will be available for attendees.
-                    <!--, starting at 6:15 PM. They will pick up outside the hotel's Convention Entrance—the entrance directly in front of the conference registration area.-->
-                    Buses will loop between the museum and hotel for the duration of the reception.
-                    <!--, with the last one leaving the museum at 8:40 PM after the reception has ended.-->
+                <h3>Reception Details</h3>
+                <p><strong>When: </strong>
+                    {{site.data.conf.reception.date | date: '%A, %B %-d, %Y'}} from {{site.data.conf.reception.times}}
                 </p>
-                <h4>Transit</h4>
-                <p><strong>Using plain words</strong>: From the Westin Pittsburgh, walk 0.3 miles south towards Fifth Avenue at
-                    Smithfield Street. Take the 61C bus 20 stops to Forbes Avenue at Bellefield Avenue South. Walk 0.2 miles east to
-                    the Carnegie Museum of Pittsburgh. Estimated travel time is roughly 29 minutes.
-                </p>
-                <p><strong>Using technology</strong>:</p>
-                <div style="margin: auto; max-width: 800px;" class="embed-responsive embed-responsive-4by3">
-                    <iframe title="Google Maps"
-                        src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d7799.3451841782335!2d-79.99012088186703!3d40.43947143734802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x8834f3e280b3ce5f%3A0x69e7db8e16c9758b!2sWestin%20Convention%20Center%20of%20Pittsburgh%2C%20Penn%20Avenue%2C%20Pittsburgh%2C%20PA!3m2!1d40.4442902!2d-79.9948067!4m5!1s0x8834f2265ce2f431%3A0x63cb21fe069ffa76!2sCarnegie%20Museum%20of%20Pittsburgh%2C%20Forbes%20Avenue%2C%20Art%2C%20PA!3m2!1d40.4437052!2d-79.9489727!5e0!3m2!1sen!2sus!4v1568665689793!5m2!1sen!2sus"
-                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                </div>
             </div>
 
             <div class="col-12">
-                <h3>Reception Details</h3>
-
-                <p><strong>When: </strong>
-                    {{site.data.conf.reception.date | date: '%A, %B %-d, %Y'}} from 6:30pm-8:30pm
-                </p>
-                <p>
-                    We will be in the Hall of Sculpture and Scaife Foyer, located on the first and second floor of the museum. Light
-                    refreshments and drinks will be provided.</p>
-                <!-- You should receive one green drink ticket when you pick up your name badge at the registration desk. -->
-                </p>
+                <h3>Directions</h3>
+                <p><strong>Don't forget your conference name tag and lanyard!</strong></p>
+                <h4>Transit</h4>
+                <!-- <p><strong>Using plain words</strong>: From the Jacobs School of Medicine, walk 0.3 miles south towards Fifth Avenue at Smithfield Street. Take the 61C bus 20 stops to Forbes Avenue at Bellefield Avenue South. Walk 0.2 miles east to the Carnegie Museum of Pittsburgh. Estimated travel time is roughly 29 minutes.
+                </p> -->
+                <p><strong>Using technology</strong>:</p>
+                <div style="margin: auto; max-width: 800px;" class="embed-responsive embed-responsive-4by3">
+                    <iframe title="Google Maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11694.452046471766!2d-78.8772641!3d42.8810116!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7ce880149997095c!2sPearl%20Street%20Grill%20%26%20Brewery!5e0!3m2!1sen!2sca!4v1650294282624!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
         {% endunless %}
     </div>
