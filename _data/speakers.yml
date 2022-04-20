@@ -642,18 +642,6 @@
   image_alt:
 
 
-- id: matthew-lincoln
-  name: Matthew Lincoln
-  last: Lincoln
-  pronouns: he/him
-  institution: Carnegie Mellon University
-  title: Collections Information Architect
-  bio: "Dr. Matthew Lincoln is the Collections Information Architect at Carnegie Mellon University Libraries, where he designs infrastructure for curators and archivists to express their knowledge as data that can be linked with cultural heritage organizations internationally, and used by students, researchers, and developers alike. He earned his PhD in Art History at the University of Maryland, College Park, and has formerly held positions at the National Gallery of Art, the Getty Research Institute, and as technical lead of The Programming Historian. His recent publications include The Index of Digital Humanities Abstracts and “Tangled Metaphors: Network Thinking and Network Analysis in the History of Art,” in The Routledge Companion to Digital Humanities and Art History."
-  keynote: FALSE
-  image_src:
-  image_alt:
-
-
 - id: lina-crowe
   name: Lina Crowe
   last: Crowe
