@@ -2,7 +2,7 @@
 layout: presentation
 type: talk 
 startTime: 2022-05-25T09:45
-speakers-text: Kim Pham, Pascal Belouin
+speakers-text: Kim Pham
 categories: talks
 day: 2
 group: 4
@@ -10,7 +10,6 @@ spot: 3
 time: 9:45 AM
 speakers:
 - kim-pham
-- pascal-belouin
 length: 15
 slugTitle: building-a-central-knowledge-graph-for-digital-humanities-research-data
 location: Auditorium 2120 A&B

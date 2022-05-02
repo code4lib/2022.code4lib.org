@@ -378,18 +378,6 @@
   image_alt:
 
 
-- id: pascal-belouin
-  name: Pascal Belouin
-  last: Belouin
-  pronouns: he
-  institution: Max Planck Institute for the History of Science
-  title:
-  bio: "Pascal Belouin is a Digital Humanities researcher at the Max Planck Institute for the History of Science, where he supports historians of science in applying digital methods to their research, and explores various DH research topics such as, among other things, knowledge modelling, distant reading, network analysis, and data visualisation."
-  keynote: FALSE
-  image_src:
-  image_alt:
-
-
 - id: naomi-dushay
   name: Naomi Dushay
   last: Dushay
