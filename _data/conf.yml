@@ -109,7 +109,6 @@ sponsor-contact-email: 'code4lib.sponsorship@gmail.com'
 scholarship-contact-email: 'code4libaward@gmail.com'
 workshop-contact-email: 'Code4Lib.Workshops@gmail.com'
 lpc-contact-email: 'code4liblpc@gmail.com'
-# accessibility-email: 'code4lib.accessibility@gmail.com'
 accessibility-email: 'code4libaccessibility@googlegroups.com'
 # when empty, community support volunteers page will use main-conf-email
 community-support-email: 'c4lcommunitysupport@googlegroups.com'
@@ -143,7 +142,7 @@ slide-template:
 
 closed-captioning:
   url:
-  show: true
+  show: false
 
 # Peri display descriptions and titles
 peri:
@@ -408,4 +407,6 @@ diversity-scholarship-sponsors:
 ################
 
 quiet-room:
-  show: false
+  show: true
+  # Room number(s)
+  location: '2212 A&B'
