@@ -809,19 +809,6 @@ Axa is a Certified Professional in Web Accessibility, a certification provided b
   image_alt: "A black man with a forced smile, grin. Short hair with a blue and white striped shirt. Background has out of focus trees and shrubbery."
   keynote: FALSE
 
-- id: cary-gordon
-  name: Cary Gordon
-  last: Gordon
-  pronouns:
-  institution:
-  position-title:
-  bio: 'Cary Gordon, MLIS,Senior Developer & Founder, the Cherry Hill Company
-<br><br>
-Cary is devoted to empowering libraries to enhance and extend their services through the use of technology, and he is focused on helping them to adopt open source software to that end. He is also very active in the Drupal community, having served on the board of the Drupal Association. A degreed librarian, Cary has taught and presented at conferences for the American Library Association, the California Library Association, LITA, ASIS&T, Code4Lib, Internet Librarian, Access (Canada) and NISO.'
-  image_src: /assets/img/speakers/cary-gordon.png
-  image_alt: "A poorly drawn picture of a chupacabra (a Mexican goat-eating demon) approximately representing my visage before I've had coffee."
-  keynote: FALSE
-
 - id: m-a-matienzo
   name: M.A. Matienzo
   last: Matienzo
