@@ -3,32 +3,31 @@
 # "Global" Vars
 ###################
 
-year: 2022
-hashtag: 'c4l22'
-location: 'Buffalo, New York'
+year: 2023
+hashtag: 'c4l23'
+location: 'Princeton, New Jersey'
 timezone: 'Eastern'
 search: false
 online-only-conference: false
-# https://research.lib.buffalo.edu/2022code4lib/venues
-welcome-message: In 1896, when Nicola Tesla initiated the first ever long-range transmission of electricity, the destination of Buffalo became the City of Light. Today, from biomedical research to the arts, this spirit of innovation glows brighter than ever, which makes Buffalo a perfect location for our 2022 Code4Lib Conference. Hosted by the State University of New York at Buffalo, details on our venue are coming soon!
-catchline: the City of Light
+welcome-message: Coming Soon
+catchline: Coming Soon
 
 ###########################
 # Hero
 ###########################
 # Place hero image in /assets/img/theme-images/. Includes optional webp format.
-hero-image-filename: 'buffalo.png'
-hero-image-source: ''
-hero-image-filename-webp: 'buffalo.webp'
-hero-image-alt: 'The skyline of Buffalo, New York. White lightning bolts and stars are in the background, representing the Buffalo city flag.'
+hero-image-filename: 'princeton.jpg'
+hero-image-source: 'https://unsplash.com/photos/JYqLCa-rv7o'
+hero-image-filename-webp: 'princeton.webp'
+hero-image-alt: 'Princeton University campus'
 
 image-attributions:
   - attribution:
-    creator: Christopher Behrend
-    image-title: Buffalo
-    image-url: https://VisitBuffaloNiagara.com
-    license-name:
-    license-url:
+    creator: 'Tim Alex (@thelondoner)'
+    image-title: 'Nassau Hall, Princeton University'
+    image-url: 'https://unsplash.com/photos/JYqLCa-rv7o'
+    license-name: 'Unsplash License'
+    license-url: 'https://unsplash.com/license'
 
 ########################
 # Program & Schedule
@@ -36,55 +35,55 @@ image-attributions:
 # These booleans affect the main menu links in the ways described below, as well
 # as displays in a few other places.
 # if true Speakers link -> /speakers/, if false -> /speakers/past-keynotes
-have-talks: true
-have-workshops: true
+have-talks: false
+have-workshops: false
 # if true Schedule link -> /schedule/, if false -> /schedule/timeline
-have-schedule: true
+have-schedule: false
 
 # day 0 = preconf day
 days:
-  - weekday: Monday
-    date: May 23rd
-    # date in a form that JS Date() constructor understands
-    date-data: 2022-05-23T23:59
   - weekday: Tuesday
-    date: May 24th
-    date-data: 2021-05-24T23:59
+    date: March 14th
+    # date in a form that JS Date() constructor understands
+    date-data: 2023-03-14T23:59
   - weekday: Wednesday
-    date: May 25th
-    date-data: 2021-05-25T23:59
+    date: March 15th
+    date-data: 2023-03-15T23:59
   - weekday: Thursday
-    date: May 26th
-    date-data: 2021-05-26T23:59
+    date: March 16th
+    date-data: 2023-03-16T23:59
+  - weekday: Friday
+    date: March 17th
+    date-data: 2023-03-17T23:59
 
 ####################
 # Venue Information
 ####################
 
 # Short Form for location
-city-state: 'Buffalo, NY'
-city: 'Buffalo'
-state: 'NY'
+city-state: 'Princeton, NJ'
+city: 'Princeton'
+state: 'NJ'
 
 venue:
-  name: 'Jacobs School of Medicine and Biomedical Sciences'
-  street: 'University in Buffalo 955 Main St.'
-  postal-code: '14203'
+  name: 'Princeton University'
+  street: 'Frist Campus Center'
+  postal-code: '08544'
   phone:
-  image: 'jacobs.jpeg'
-  website: 'https://medicine.buffalo.edu/about/our_campuses.html'
-  floorplan:
-  directions: 'https://medicine.buffalo.edu/about/our_campuses.html#title-1'
+  image: 'frist-campus-center.jpg'
+  website: 'https://www.princeton.edu/'
+  floorplan: 'https://www.princeton.edu/frist/floorplans/floorplansBc.html'
+  directions: 'https://www.princeton.edu/meet-princeton/visit-us'
   a11y: ''
   hotel:
     show: true
     multiple-hotels: true
-    multiple-hotels-map: https://www.google.com/maps/d/u/0/viewer?mid=1NVNeQvh5brzIyWVk3iDpAkk_q5dLTOtX&ll=42.8963212217323%2C-78.870584222229&z=15
+    multiple-hotels-map: https://www.google.com/maps/d/viewer?mid=15yvj8MVkJpo8DtSdhPks_UauH8OqMbA
     name:
     reserved-room-block: false
     cost:
     with-tax-cost:
-    cost-cutoff-date: 2140-12-31
+    cost-cutoff-date: 
     check-in-time:
     check-out-time:
     self-parking-fee:
@@ -124,7 +123,7 @@ anonymous-form: 'https://css4csv.clir.org/anonymous-incident-report-form/'
 # - post:   for after the conference is over
 #
 ####################
-homepage-display: post
+homepage-display: pre
 
 livestream:
   show: false
@@ -133,32 +132,32 @@ livestream:
 
 slides:
   show: false
-  url: 'https://osf.io/meetings/c4l22'
+  url: 'https://osf.io/meetings/c4l23'
   contact: ''
   email: ''
 
 slide-template:
-  url: '/assets/C4L2021-template.pptx'
+  url: '/assets/C4L2023-template.pptx'
 
 closed-captioning:
   url:
 
 # Peri display descriptions and titles
-peri:
-  day1-am-title: 'Pre-Conference'
-  day1-am-desc: 'Workshops'
-  day1-pm-title: 'Newcomer Dinner'
-  day1-pm-desc: 'Dine-Around'
-  day2-am-title: 'Conference, Day 1'
-  day2-am-desc: 'Opening Keynote & Talks'
-  day2-pm-title: 'Reception'
-  day2-pm-desc: 'Pearl Street Grill & Brewery'
-  day3-am-title: 'Conference, Day 2'
-  day3-am-desc: 'Awesome Talks'
-  day3-pm-title: 'Game Night'
-  day3-pm-desc: 'Board or Card Games'
-  day4-am-title: 'Conference, Day 3'
-  day4-am-desc: 'Closing Keynote & Talks'
+#peri:
+#  day1-am-title: 'Pre-Conference'
+#  day1-am-desc: 'Workshops'
+#  day1-pm-title: 'Newcomer Dinner'
+#  day1-pm-desc: 'Dine-Around'
+#  day2-am-title: 'Conference, Day 1'
+#  day2-am-desc: 'Opening Keynote & Talks'
+#  day2-pm-title: 'Reception'
+#  day2-pm-desc: 'Pearl Street Grill & Brewery'
+#  day3-am-title: 'Conference, Day 2'
+#  day3-am-desc: 'Awesome Talks'
+#  day3-pm-title: 'Game Night'
+#  day3-pm-desc: 'Board or Card Games'
+#  day4-am-title: 'Conference, Day 3'
+#  day4-am-desc: 'Closing Keynote & Talks'
 
 ###########
 # Sponsors
@@ -166,10 +165,10 @@ peri:
 # If false, hides sponsors link in navigation and footer
 show-sponsors: true
 # Toggles whether prospectus button displays on homepage and sponsor pages
-sponsor-buttons: false
+sponsor-buttons: true
 # URL to document
-prospectus-document: https://drive.google.com/file/d/11oFZcxx5F_gCdkJ5S7WIzUom-AkNxuAM/view?usp=sharing
-sponsor-btn-link: 'https://www.concentra-cms.com/c4l22sponsorreg.html'
+prospectus-document: https://drive.google.com/file/d/1J6oOSqwsXQSGFs9AUHH2LW8IJDwX2AFN/view?usp=sharing
+sponsor-btn-link: 'https://www.concentra-cms.com/c4l23sponsorreg.html'
 
 ##########
 # !!!NOTE!!! All 'end-date' vars should be in the following format: YYYY-MM-DD
@@ -182,18 +181,18 @@ sponsor-btn-link: 'https://www.concentra-cms.com/c4l22sponsorreg.html'
 
 keynote-proposals:
   show: false
-  submission-form: 'https://wiki.code4lib.org/2022_Keynote_Speakers_Nominations'
-  end-date: '2021-11-28'
+  submission-form: 'https://wiki.code4lib.org/2023_Keynote_Speakers_Nominations'
+  end-date: '2022-11-29'
 
 workshop-proposals:
   show: false
-  submission-form: 'https://docs.google.com/forms/d/e/1FAIpQLSfh1ri7kmxtZv5SdfKJ-Q6EoiTFYVxtaFNhbh2Wzpzxcr0BcQ/viewform'
-  end-date: '2021-11-29'
+  submission-form: 'https://forms.gle/e1fgutRMHRxJJwVQ7'
+  end-date: '2022-11-30'
 
 talk-proposals:
   show: false
-  submission-form: 'https://docs.google.com/forms/d/e/1FAIpQLSc3WHM4INwlzBmpRXwJQTKls0yIr0Vafk2EVhfu5H_o0-aAgw/viewform'
-  end-date: '2021-11-28'
+  submission-form: 'https://forms.gle/nBvxVhndmeLAJRkN9'
+  end-date: '2022-11-14'
 
 panel-proposals:
   show: false
@@ -202,37 +201,37 @@ panel-proposals:
 
 poster-proposals:
   show: false
-  submission-form: 'https://forms.gle/ELyF1dx6U3FnvZoU7'
-  end-date: '2022-02-21'
+  submission-form: ''
+  end-date: ''
 
 shirt-proposals:
   show: false
-  submission-form: 'https://forms.gle/uZpF6MzgfzrNeSgNA'
-  end-date: '2022-03-18'
+  submission-form: ''
+  end-date: ''
 
 host-proposals:
   show: false
-  submission-form: 'https://wiki.code4lib.org/2019_Hosting_Proposals'
-  end-date: '2021-02-23'
+  submission-form: ''
+  end-date: ''
 
 ###########
 # Voting
 ###########
 
 keynote-voting:
-  show: false
-  url: 'https://forms.gle/NgZEfs3a5ciceAbr7'
-  end-date: '2021-12-20'
+  show: true
+  url: 'https://forms.gle/Ve1M6YcSDwujAVYd8'
+  end-date: '2022-12-12'
 
 workshop-voting:
   show: false
-  url: 'https://docs.google.com/forms/d/e/1FAIpQLSfEAwmP9Wnrk2aXLgfEpnk0zS3W8M4rukx_DL3tCeaMjqHwdg/viewform'
-  end-date: '2021-11-19'
+  url: ''
+  end-date: ''
 
 talk-voting:
   show: false
-  url: 'https://forms.gle/vSjoYhcxDEs8GuGX8'
-  end-date: '2021-12-17'
+  url: 'https://forms.gle/hhwJJW4NMLW3ZysK8'
+  end-date: '2022-12-05'
 
 panel-voting:
   show: false
@@ -241,123 +240,23 @@ panel-voting:
 
 poster-voting:
   show: false
-  url: 'https://docs.google.com/forms/d/e/1FAIpQLSdPB96c7KqbKJJUN99al0fH2YeMhMyveuFd5_atqvtatZXexQ/viewform'
-  end-date: '2022-03-18'
+  url: ''
+  end-date: ''
 
 shirt-voting:
   show: false
-  url: 'https://docs.google.com/forms/d/e/1FAIpQLSf0CK7T66PnyAVBcXbTS-IJdCAwgy0JwL6jPE9QNjq8yvBZCA/viewform'
-  end-date: '2022-03-30'
+  url: ''
+  end-date: ''
 
 ##################
 # Schedule events
 ##################
 
 # usually on the wiki
-social-activities-url: '/general-info/social/'
-
-simulation:
-  show: true
-  date: '2022-05-25'
-  time: '10:10AM to 10:50AM'
-  location: 'Behling Human Simulation Center - Jacobs School of Medicine and Biomedical Sciences'
-  description: 'The Behling Human Simulation Center is a facility where learners are exposed to high-risk, low-frequency events through the use of high-fidelity simulated patients. Simulations can range from communication scenarios with a concerned/abusive parent (portrayed by a local actor) while treating their child, to life-threatening code scenarios, to child delivery. Workshops are regularly held using task trainers to either learn, or brush-up on specific skills such as intubation and airway management. The use of these simulated patients allows learners to experience and utilize their skills without the risk to human life. <br/><br/>The sign up sheet will be available at Wednesday’s morning registration table. There is a 20-person maximum for this event.'
-  event-url: ''
-  event-url-button-text: ''
-  sign-up-url: ''
-  sign-up-button-text: ''
-
-tours:
-  show: true
-  date: '2022-05-25'
-  time: '6:30PM to 7:30PM'
-  location: ''
-  description: 'There are two tours available: the "Architecture Timeline: Downtown Walking Tour", and the "Best of Buffalo Walking Tour". <br/><br/> The "Architecture Timeline: Downtown Walking Tour" is a chronological walk through architectural time from the mid-nineteenth century to the early twenty-first century. We''ll see excellent examples of all the major architectural styles prevalent in commercial and government office construction during this period. Tour begins at: Northeast Corner of Pearl Street and Seneca Street across from <a href="https://www.google.com/maps/place/Pearl+Street+Grill+%26+Brewery/@42.8810379,-78.8767487,16.75z/data=!4m5!3m4!1s0x0:0x7ce880149997095c!8m2!3d42.8810116!4d-78.8772641">Pearl Street Brewery</a>. (Seneca Station Light Metro Rail - free above ground). <br/><br/> The "Best of Buffalo" is an architectural overview tour to help tell the story of Buffalo''s rapid rise to prominence, from the opening of the Erie Canal to the 1901 Pan-American Exposition. Buildings seen on this tour were designed by both nationally and locally significant architects, including Louis Sullivan, Richard Upjohn, Louise Bethune, and EB Green. Perfect for both visitors and residents alike, this tour is an excellent introduction to Buffalo''s architectural heritage. This tour begins at: Front entrance of Hotel @ the Lafayette, 391 Washington St, Buffalo, NY 14203 (Church Street Station Light Metro Rail). <br/><br/> Cost is $15 at registration, and sign up is available during conference registration. There will be 15 people max on each tour.'
-  event-url: ''
-  event-url-button-text: ''
-  sign-up-url: ''
-  sign-up-button-text: ''
-
-game-night:
-  show: true
-  date: '2022-05-25'
-  time: '7:00PM to 11:00PM'
-  location: 'Wyndham Garden Buffalo Downtown, 125 High St, Buffalo, NY. Buffalo Room.'
-  description: 'Play games? Come join your fellow code4libers in a few board or card games! Games night will take place at the Wyndham Garden Buffalo Downtown. Outside food and drinks are allowed.'
-  event-url: ''
-  event-url-button-text: ''
-  sign-up-url: 'https://docs.google.com/spreadsheets/d/1rPr6TxP5qxHnx2PMPvZK9im2b-ZmqZcTCVFOmwaQZLU/edit#gid=0'
-  sign-up-button-text: 'Sign Up for Game Night'
-
-virtual-game-night:
-  show: true
-  date: '2022-05-25'
-  time: '6:00PM to 8:00PM'
-  location: 'Online'
-  description: 'Play games? Come join your fellow code4libers in a few board or card games!'
-  event-url: ''
-  event-url-button-text: ''
-  sign-up-url: 'https://docs.google.com/document/d/1oRVxajcg9Jx3FuFsufttyad5MB_TD37p8HxrVAQWkXg/edit#heading=h.ljbkf0ewo3sw'
-  sign-up-button-text: 'Sign Up for VIRTUAL Game Night'
-
-karaoke-night:
-  show: false
-  date: '2022-03-24'
-  time: '6PM to 7:30PM'
-  description: 'We also have Karaoke night for those who would like to share your passions in singing, or just hangout with friendly folks.'
-  event-url: ''
-  event-url-button-text: ''
-  sign-up-url: ''
-  sign-up-button-text: 'Sign Up for a Song!'
-
-trivia-night:
-  show: false
-  date: '2022-03-25'
-  time: '6PM to 7:30PM'
-  description: 'If you miss the good old pub trivia days, come join us as we compete for bragging rights at Trivia Night hosted by DC-based District Trivia!'
-  event-url: ''
-  event-url-button-text: ''
-  sign-up-url: ''
-  sign-up-button-text: 'Sign Up! Registration Limited'
+#social-activities-url: '/general-info/social/'
 
 diy-social:
   show: true
-
-# see also: dinner.yml file of restaurant locations
-newcomer-dinner:
-  show: true
-  # entering the URL doubles as a "show more info" switch, too
-  signup-url: 'https://docs.google.com/document/d/1kG53yWe3rVAx8ck4GaAv4bFRxKgthJgFZ3UzAFGrvbc/edit#'
-  transit-info: 'https://docs.google.com/document/d/1kG53yWe3rVAx8ck4GaAv4bFRxKgthJgFZ3UzAFGrvbc/edit#'
-  activities-info: 'https://www.google.com/maps/d/u/0/viewer?mid=19KBXCOtzJSle2hGG2BSm6WGyT8-AZOGF&ll=42.9255235816872%2C-78.8159373&z=12'
-  date: '2022-05-23'
-
-libtech-women:
-  show: false
-  date: '2022-03-10'
-  time: '5:30PM to 7:30PM'
-  location: 'Bill’s Bar & Burger (in the Conference Hotel)'
-  hashtag: libtechwomen
-
-reception:
-  show: true
-  venue: 'Pearl Street Grill & Brewery'
-  url: 'https://pearlstreetgrill.com/'
-  street: '76 Pearl Street, Buffalo NY'
-  postal-code: '14202'
-  phone: '+1(716)-856-2337'
-  contact: 'https://pearlstreetgrill.com/contact-us'
-  floorplan:
-  image: 'pearl-street.jpg'
-  image_title: 'Pearl Street Grill & Brewery'
-  image_alt: 'Pearl Street Grill & Brewery'
-  times: '6:30PM to 9:00PM'
-  date: '2022-05-24'
-  special-notes: "We'll be on the 4th floor."
-
-self-event:
-  show: false
-  url: 'https://docs.google.com/document/d/1bKuSy14npN2uq-rqE9RAEmc4nZRpn99KnU9SK8dfEQ8/edit?usp=sharing'
 
 ###############
 # Volunteer
@@ -365,12 +264,12 @@ self-event:
 
 volunteer-committee:
   show: false
-  url: 'https://wiki.code4lib.org/Code4Lib_2022_Conference_Committees'
-  end-date: '2021-12-31'
+  url: ''
+  end-date: ''
 
 volunteer-dutyoff:
   show: false
-  url: 'https://goo.gl/forms/2DkdbUUDSSOMi1f33'
+  url: ''
   end-date: ''
 
 # for volunteers during conference like MCs, mic-minders, etc.
@@ -392,21 +291,21 @@ angel-fund:
   # whether to show the "donation thermometer" & Google Spreadsheet key for it
   # NOTE: spreadsheet needs to be "published to the web"
   thermometer: false
-  spreadsheet-key: '1U-FaszOhcXxpQnfMaI9TbRfcpQfPxrogfl8zrFIVIOk'
-  url: https://mxmerchant.com/mxcustomer/d/46efc4f8-1366-4943-a367-3d11cda79283/v3
+  spreadsheet-key: ''
+  url: ''
 
 diversity-scholarship-applications:
   show: false
   url: '/general-info/scholarships#how-to-apply'
   url-text: 'How to Apply'
   end-day: 'Monday'
-  end-date: '2022-01-31'
-  end-time: '11:59 PM ET'
-  notification-date: '2022-02-15'
-  apply-url: 'https://forms.gle/tNmnqz53e7yMoBXA6'
-  committee-wiki-url: 'https://wiki.code4lib.org/Code4Lib_2022_Conference_Committees#Scholarship_Committee'
-  max-scholarship-award: '$1500'
-  max-international-award: '$3000'
+  end-date: ''
+  end-time: ''
+  notification-date: ''
+  apply-url: ''
+  committee-wiki-url: ''
+  max-scholarship-award: ''
+  max-international-award: ''
 
 # show sponsors for diversity scholarships on general-info/scholarships
 diversity-scholarship-sponsors:
@@ -417,7 +316,14 @@ diversity-scholarship-sponsors:
 # Other
 ################
 
+live-captioning:
+  show: false
+  service: ''
+
 quiet-room:
-  show: true
+  show: false
   # Room number(s)
-  location: '2212 A&B'
+  location: ''
+
+public-transportation:
+  show: true
