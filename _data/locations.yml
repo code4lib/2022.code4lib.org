@@ -1,14 +1,10 @@
-- id: hayes-hall
-  name: 'Hayes Hall, UB South Campus'
-  google_maps: 'https://goo.gl/maps/cBFP9HQXd1b5ARJh6'
+- id: sample
+  name: 'Sample Hall'
+  google_maps: ''
   # only provide a URL, we make our own responsive iframe around it
-  embed_code: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46706.20418019159!2d-78.83873112390165!3d42.97537161235213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d373b012ee45ab%3A0x18223823e83f3757!2sHayes%20Hall%20-%20University%20at%20Buffalo!5e0!3m2!1sen!2sus!4v1645743773341!5m2!1sen!2sus
+  embed_code: ''
   rooms:
-    - id: 327
-      name: Room 327
-    - id: 328
-      name: Room 328
-    - id: 401
-      name: Room 401
-    - id: 402
-      name: Room 402
+    - id: 1
+      name: Room 1
+    - id: 2
+      name: Room 2

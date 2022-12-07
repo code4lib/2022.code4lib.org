@@ -7,16 +7,16 @@
 conference:
   # "show" means display information on the home page and /general-info/attend
   show: false
-  url: https://code4lib.regfox.com/code4lib-2022
-  start-date: 2022-03-01
-  end-date: 2022-05-02
-  cancellation-date: 2022-05-02
+  url: ''
+  start-date: ''
+  end-date: ''
+  cancellation-date: ''
   # "open" means people can register
-  open: true
-  cost: "$195"
-  late-cost: "$250"
-  workshop-half-day-cost: "$40"
-  workshop-full-day-cost: "$80"
+  open: false
+  cost: ''
+  late-cost: ''
+  workshop-half-day-cost: ''
+  workshop-full-day-cost: ''
   limited-capacity: true
 
 workshop-only:
@@ -28,18 +28,18 @@ workshop-only:
   undecided-text: "Depending on availability, Pre-Conference ONLY registration may open at the beginning of May."
   url:
   # precon-only registration cost may differ from precons with general registration
-  half-day-cost: "$50"
+  half-day-cost: ''
   full-day-cost:
-  start-date: 2022-05-03
+  start-date: ''
 
 t-shirt-only:
   show: true
-  start-date: 2022-03-01
-  cost: $29
+  start-date: ''
+  cost: ''
   # should be one or the other: have to purchase by last-date or cost changes after late-date
-  last-date: 2022-05-02
-  # late-date: 2022-05-03
-  # late-cost: $39
+  last-date: ''
+  # late-date: ''
+  # late-cost: ''
 
 childcare:
   # "show" toggles the child care entry on /general-info/attend, under 'Additional Information' heading

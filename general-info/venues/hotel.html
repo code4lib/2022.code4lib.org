@@ -6,7 +6,7 @@
 
         {% if site.data.conf.venue.image %}
         <div class="col-6">
-            <img class="img-fluid" src="/assets/img/venues/{{ site.data.conf.venue.image }}" alt="{{ site.data.conf.venue.name }}">
+            <img class="img-fluid" src="/assets/img/theme-images/{{ site.data.conf.venue.image }}" alt="{{ site.data.conf.venue.name }}">
         </div>
         {% endif %}
 
@@ -55,36 +55,51 @@
 
         {% if site.data.conf.venue.hotel.multiple-hotels %}
             <p>
-                Due to the nature of hosting this conference on campus, in {{ site.data.conf.year }} there will not be a centralized hotel location.
-                The Local Planning Committee has secured small blocks of rooms at nearby hotels at modestly discounted rates.
-                Hotel registration information (including online booking links and discount codes) will be sent directly via email to all registered attendees.
+                Due to the nature of hosting this conference on campus, in {{ site.data.conf.year }} there will not be a centralized hotel location. The hotels closest to Princeton University are:
             </p>
-            {%- comment -%} Buffalo hotels, slight indent for section {%- endcomment -%}
+            {%- comment -%} Princeton hotels, slight indent for section {%- endcomment -%}
             <section class="col-md-8">
                 <p>
-                    <strong class="font-bold">Wyndham Garden Buffalo Downtown</strong><br>
-                    125 High Street<br>
-                    Buffalo, New York 14203<br>
-                    <a href="tel:1-716-845-0112">(716) 845-0112</a><br>
-                    Code4lib Attendee Rate: $108/night plus applicable taxes<br>
-                    Reservation Deadline: Saturday, April 23, 2022<br>
+                    <strong class="font-bold">Nassau Inn</strong><br>
+                    10 Palmer Square<br>
+                    Princeton, NJ 08542<br>
+                    <a href="tel:1-609-921-7500">(609) 921-7500</a><br>
+                    <a href="https://nassauinn.com/">https://nassauinn.com/</a>
                 </p>
                 <p>
-                    <strong class="font-bold">Embassy Suites Buffalo</strong><br>
-                    200 Delaware Avenue<br>
-                    Buffalo, NY 14202<br>
-                    <a href="tel:1-716-842-1000">(716) 842-1000</a><br>
-                    Code4lib Attendee Rate: $169/night plus applicable taxes<br>
-                    Reservation Deadline: Saturday, April 23, 2022<br>
+                    <strong class="font-bold">Peacock Inn</strong><br>
+                    20 Bayard Lane<br>
+                    Princeton, NJ 08540<br>
+                    <a href="tel:1-609-924-1707">(609) 924-1707</a><br>
+                    <a href="https://www.peacockinn.com/">https://www.peacockinn.com/</a>
                 </p>
-                <p>Embassy Suites reservations come with complimentary made to order breakfasts each morning, and an evening reception for all guests. Valet parking is available for overnights guests, the current rate is $25/night.</p>
                 <p>
-                    <strong class="font-bold">Aloft Buffalo Downtown</strong><br>
-                    500 Pearl St <br>
-                    Buffalo, NY 14202<br>
-                    <a href="tel:1-716-849-7280">(716) 849-7280</a><br>
-                    Code4lib Attendee Rate: $179/night plus applicable taxes<br>
-                    Reservation Deadline: Thursday, April 21, 2022<br>
+                    <strong class="font-bold">Hyatt Regency Princeton</strong><br>
+                    102 Carnegie Center<br>
+                    Princeton, NJ 08540<br>
+                    <a href="tel:1-609-987-1234">(609) 987-1234</a><br>
+                    <a href="https://www.hyatt.com/en-US/hotel/new-jersey/hyatt-regency-princeton/princ">https://www.hyatt.com/en-US/hotel/new-jersey/hyatt-regency-princeton/princ</a>
+                </p>
+                <p>
+                    <strong class="font-bold">Chauncey Conference Center</strong><br>
+                    One Chauncey Road<br>
+                    Princeton, NJ 08541<br>
+                    <a href="tel:1-609-921-3600">(609) 921-3600</a><br>
+                    <a href="https://www.acc-chaunceyconferencecenter.com/accommodations">https://www.acc-chaunceyconferencecenter.com/accommodations</a>
+                </p>
+                <p>
+                    <strong class="font-bold">Residence Inn Princeton at Carnegie Center</strong><br>
+                    3563 US Highway 1<br>
+                    Princeton, NJ 08540<br>
+                    <a href="tel:1-609-799-0550">(609) 799-0550</a><br>
+                    <a href="https://www.marriott.com/en-us/hotels/ttnww-residence-inn-princeton-at-carnegie-center/overview">https://www.marriott.com/en-us/hotels/ttnww-residence-inn-princeton-at-carnegie-center/overview</a>
+                </p>
+                <p>
+                    <strong class="font-bold">Hyatt Place Princeton</strong><br>
+                    3565 US Highway 1<br>
+                    Princeton, NJ 08540<br>
+                    <a href="tel:1-609-720-0200">(609) 720-0200</a><br>
+                    <a href="https://www.hyatt.com/en-US/hotel/new-jersey/hyatt-place-princeton/ewrzp">https://www.hyatt.com/en-US/hotel/new-jersey/hyatt-place-princeton/ewrzp</a>
                 </p>
             </section>
 
@@ -107,10 +122,4 @@
     </div>
     {% endif %}
 
-    <div class="col-12">
-        <h3>Transportation</h3>
-        <p>
-            For information regarding local public transit options, driving directions, and parking availability, please consult the Jacobs School Facilities Planning and Management <a href="https://medicine.buffalo.edu/offices/facilities/parking.html">"Commuting" help page</a>.
-        </p>
-    </div>
 </section>

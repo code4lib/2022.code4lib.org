@@ -1,6 +1,6 @@
 ---
 layout: default
-title: code4lib 2022
+title: code4lib 2023
 ---
 
 {% include homepage/jumbotron.html %}
@@ -29,17 +29,13 @@ title: code4lib 2022
 <section class="welcome">
     <div class="container">
         <div class="row section">
-            <div class="col-lg-3 col-md-5 col-xs-12">
-                <img class="w-100" src="assets/img/theme-images/flag_of_buffalo_ny.png"
-                    alt="Flag for City of Buffalo, New York" title="Flag for City of Buffalo, New York">
-            </div>
             <div class="col-lg-9 col-md-7 col-xs-12">
                 <h2>Welcome to {{site.data.conf.location}}, {{site.data.conf.catchline}}</h2>
                 <p>{{site.data.conf.welcome-message}}</p>
                 {% if site.data.conf.venue.name != nil %}
                 <p>
-                    The conference will take place at the <a class="welcome" href="{{site.data.conf.venue.website}}">{{site.data.conf.venue.name}}</a>,
-                    right in downtown {{ site.data.conf.location }}.
+                    The conference will take place at <a class="welcome" href="{{site.data.conf.venue.website}}">{{site.data.conf.venue.name}}</a>,
+                    in {{ site.data.conf.location }}.
                 </p>
                 {% endif %}
             </div>

@@ -37,11 +37,12 @@ subnav:
 		</div>
 	</div>
 
+    {% if site.data.conf.live-captioning.show %}
 	<div class="row">
 		<div class="col-12">
             <h2 id="captioning">Live Captioning</h2>
             <p>
-				During the general conference, Code4Lib {{site.data.conf.year}} will feature live captioning by "20/20 Captioning". In order to improve the quality of this service, we ask everyone to speak slowly and clearly so the captioning service is able to accurately capture what you say. Any prerecorded sessions or talks will also be live captioned. 
+				During the general conference, Code4Lib {{site.data.conf.year}} will feature live captioning by {{site.data.conf.live-captioning.service}}. In order to improve the quality of this service, we ask everyone to speak slowly and clearly so the captioning service is able to accurately capture what you say. Any prerecorded sessions or talks will also be live captioned. 
 				{% if site.data.conf.closed-captioning.show %}
 					Attendees, both local and remote, may view the text stream at:
                		<a href="{{site.data.conf.closed-captioning.url}}">{{site.data.conf.closed-captioning.url}}</a>.
@@ -50,6 +51,10 @@ subnav:
             </p>
 		</div>
 	</div>
+	{% else %}
+	{% comment %} remove from secondary nav (jQuery not yet on page) {% endcomment %}
+	<script>document.querySelector('.secondarynav a[href="#captioning"]').parentElement.remove()</script>
+	{% endif %}
 
     {% if site.data.conf.quiet-room.show %}
 	<div class="row">
@@ -98,7 +103,7 @@ subnav:
             <p>
 				Code4Lib encourages all of its presenters to produce and deliver accessible talks. A guide to accessible presentations will be available soon. Towards this efforts, we have collected a body of advice and best practices:</p>
 				<p style="text-align:center;font-weight:bold;font-size:larger">
-					<a href="accessible-presenting.html">C4L Accessible Presenting Guide</a> 
+					<a href="accessible-presenting.html">Code4Lib Accessible Presenting Guide</a> 
 				</p>
             </p>
 		</div>
@@ -119,8 +124,7 @@ subnav:
 			<h3>Using a Microphone</h3>
 			<p>Generally, the line of the microphone should always point towards your mouth and nose. For a handheld mic, hold it like a candy bar or at a 45 degree angle. Position a podium mic towards you.</p>
 
-			<h3>Audience Microphones</h3>
-			<p>Desk microphones are built into every seat in the main conference venue for Q&A with presenters.</p>
+			
 
 		</div>
 	</div>
@@ -128,29 +132,11 @@ subnav:
 	<div class="row">
 		<div class="col-12">
 			<h2 id="transportation">Public Transportation</h2>
-			<p>Public transit in Buffalo, including the options between the conference hotels and venue, provide several options for riders with disabilities. For further details see the <a href="https://metro.nfta.com/special-services/accessibility">NFTA Special Services - Accessibility website</a>.</p>
-
-			<h3>Metro Rail</h3>
-			<ul>
-				<li>All Metro Rail trains and stations are accessible to riders with disabilities.</li>
-				<li>Wheelchair riders must board the <strong>first door</strong> of the <strong>first railcar</strong> in the train in order to have access to boarding platforms on the Buffalo Place Mall.</li>
-				<li>Wheelchair riders traveling in the subsurface (underground) portion of the system may board any railcar.</li>
-				<li>Each railcar has two wheelchair securement locations; one at the front and one at the back of the railcar.</li>
-				<li>Service animals are permitted on Metro Rail.</li>
-				<li>Ticket vending machines located throughout the system are equipped with Braille and raised letters. Wheelchair height machines are also provided.</li>
-				<li>Passenger assistance communication equipment (PACE) is available at each Metro Rail station. This equipment may be used to obtain information or to report an emergency.</li>
-				<li>Many of Metro's rail stations provide Telecommunication Devices for the deaf, as well as video monitors to assist riders who are deaf or hearing impaired. Volume control telephones are available, as well.</li>
-			</ul>
-			
-			<h3>Metro Bus</h3>
-			<ul>
-				<li>All Metro vehicles are equipped with wheelchair lifts or ramps.</li>
-				<li>Two wheelchair tie-down positions are provided on newer buses. The older buses have one tie-down position.</li>
-				<li>Metro Bus operators are required to announce major stops.</li>
-				<li>Service animals are permitted on Metro vehicles.</li>
-				<li>Metro Bus operators provide assistance to disabled passengers where necessary or upon request.</li>
-				<li>When the wheelchair lift is not working and the next bus is not due to arrive for over 30 minutes, riders are entitled to alternative transportation. Just ask your driver to make the arrangements for you.</li>
-			</ul>
+			{% if site.data.conf.public-transportation.show %}
+			<p>For more information about the accessibility of public transit in the Princeton area, see the accessibility sites of <a href="https://www.njtransit.com/railaccessibility">New Jersey Transit</a> and <a href="https://www.amtrak.com/accessible-travel-services">Amtrak</a>.</p>
+			{% else %}
+			<p>More information forthcoming. </p>
+			{% endif %}
         </div>
     </div>
 </div>
